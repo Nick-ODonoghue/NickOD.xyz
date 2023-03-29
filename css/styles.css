@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+    /* Primary */
+    --bg-main: hsl(135, 31%, 95%);
+    /* Secondary */
+    --bg-secondary: hsl(135, 25%, 94%);
+    /* Accent */
+    --bg-accent-yellow: hsl(53, 100%, 91%);
+    --bg-accent-teal: #d3fade;
+
+    /* Font Colours */
+    --light: hsl(120, 15%, 88%);
+    --txt-dark: hsl(250, 18%, 19%);
+}
+
+body {
+    background-color: var(--bg-main);
+    font-family: "poppins", Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+}
+
+/* Typography */
+a {
+    color: var(--txt-dark);
+}
+span {    
+    color: var(--txt-dark);
+}
+/* Utilities */
+.set-grid {
+    display: grid;
+}
+.set-flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.set-row {
+    flex-direction: row;
+}
+/* .wrapper {
+    max-width: 144rem;
+    border: 1px red solid;
+    margin-inline: auto;
+} */
+.center-v {
+    justify-content: center;
+}
+.center-h {
+    align-items: center;
+}
+.container {
+    max-width: 144rem;
+    margin-inline: auto;
+}
+
+/* Navbar */
+.navbar {
+    justify-content: space-between;
+    border: 1px green solid;
+    margin: 2rem 0;
+}
+
+.logo {
+    font-size: 4rem;
+}
+
+.nav__links {
+    font-size: 3rem;
+    padding: 0 1.5rem;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    border: 1px blue solid;
+    margin: 2rem auto;
+}
+
+/* About Section */
+.about {
+    border: 1px green solid;
+    margin: 2rem auto;
+    background-color: var(--bg-accent-yellow);
+}
+
+/* Portfolio Section */
+
+/* Contact Section */
+
+/* Footer Section */
+
+/* -------------------- */
+/* COMING SOON SECTION */
+/* -------------------- */
+
+/* .wrapper {
+    background-color: var(--bg-main);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 3fr;
+    grid-template-areas:
+        "top      top"
+        "bottom   bottom";
+    padding-top: 20%;
+}
+
+.brand__name-container {
+    writing-mode: tb-rl;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-top: 20%;
+    padding-left: 10%;
+    position: relative;
+}
+
+.brand__name-rotate {
+    transform: rotate(180deg);
+}
+.brand__name-rotate::after {
+    content: "xyz";
+    position: absolute;
+    transform: rotate(90deg);
+    top: 215px;
+    right: 72px;
+}
+
+.brand__name-text {
+    color: var(--light);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero {
+    color: var(--dark);
+    font-size: max(3vw, 2em, 2rem);
+    grid-area: top;
+} */
