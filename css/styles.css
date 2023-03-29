@@ -71,6 +71,8 @@ span {
   border-bottom: var(--border);
   padding: 1rem;
   margin-inline: auto;
+  position: sticky;
+  top: 0;
 }
 
 .navbar {
@@ -90,17 +92,21 @@ span {
 
 /* Hero Section */
 .hero {
-  margin: 10rem auto;
+  margin: 5rem 0;
   padding: var(--padding);
-  gap: 5rem;
+}
+
+.hero--text {
+  gap: 1.5rem;
 }
 
 .hero__name {
-  font-size: 8rem;
+  font-size: 4.5rem;
 }
 
 .hero__title {
-  font-size: 3rem;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 /* About Section */
