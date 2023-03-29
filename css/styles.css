@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
 
 :root {
-    /* Primary */
-    --bg-main: hsl(135, 31%, 95%);
-    /* Secondary */
-    --bg-secondary: hsl(135, 25%, 94%);
+    /* Background Colours */
+    --site--bg: hsl(120, 73%, 75%);
+    --card--bg: hsl(46, 100%, 72%);
+    --navbar--bg: hsl(46, 100%, 82%);
     /* Accent */
     --bg-accent-yellow: hsl(53, 100%, 91%);
     --bg-accent-teal: #d3fade;
@@ -15,8 +15,8 @@
 }
 
 body {
-    background-color: var(--bg-main);
-    font-family: "poppins", Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--site--bg);
+    font-family: "Roboto Mono", Verdana, Geneva, Tahoma, sans-serif;
     height: 100vh;
 }
 
@@ -24,7 +24,7 @@ body {
 a {
     color: var(--txt-dark);
 }
-span {    
+span {
     color: var(--txt-dark);
 }
 /* Utilities */
@@ -54,13 +54,20 @@ span {
 .container {
     max-width: 144rem;
     margin-inline: auto;
+    padding: 0 1rem;
 }
 
 /* Navbar */
+
+.header {
+  background-color: var(--navbar--bg);
+  border-bottom: 3px solid hsl(0, 0%, 0%);
+  padding: 1rem 0;
+}
+
 .navbar {
     justify-content: space-between;
-    border: 1px green solid;
-    margin: 2rem 0;
+    /* margin: 2rem 0; */
 }
 
 .logo {
@@ -83,7 +90,7 @@ span {
 .about {
     border: 1px green solid;
     margin: 2rem auto;
-    background-color: var(--bg-accent-yellow);
+    background-color: var(--card--bg);
 }
 
 /* Portfolio Section */
