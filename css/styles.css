@@ -1,60 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
 
 :root {
-    /* Background Colours */
-    --site--bg: hsl(120, 73%, 75%);
-    --card--bg: hsl(46, 100%, 72%);
-    --navbar--bg: hsl(46, 100%, 82%);
-    /* Accent */
-    --bg-accent-yellow: hsl(53, 100%, 91%);
-    --bg-accent-teal: #d3fade;
-
-    /* Font Colours */
-    --light: hsl(120, 15%, 88%);
-    --txt-dark: hsl(250, 18%, 19%);
+  /* Background Colours */
+  --site--bg: hsl(120, 73%, 75%);
+  --card--bg: hsl(46, 100%, 72%);
+  --navbar--bg: hsl(46, 100%, 82%);
+  /* Accent */
+  --bg-accent-yellow: hsl(53, 100%, 91%);
+  --bg-accent-teal: #d3fade;
+  /* Font Colours */
+  --light: hsl(120, 15%, 88%);
+  --txt-dark: hsl(250, 18%, 19%);
+  /* Margin */
+  --v-margin: 2rem;
+  --padding: 1rem;
 }
 
 body {
-    background-color: var(--site--bg);
-    font-family: "Roboto Mono", Verdana, Geneva, Tahoma, sans-serif;
-    height: 100vh;
+  background-color: var(--site--bg);
+  font-family: "Roboto Mono", Courier, monospace;
 }
 
 /* Typography */
 a {
-    color: var(--txt-dark);
+  color: var(--txt-dark);
 }
+
 span {
-    color: var(--txt-dark);
+  color: var(--txt-dark);
 }
+
 /* Utilities */
 .set-grid {
-    display: grid;
+  display: grid;
 }
+
 .set-flex {
-    display: flex;
+  display: flex;
 }
+
 .flex-col {
-    flex-direction: column;
+  flex-direction: column;
 }
+
 .set-row {
-    flex-direction: row;
+  flex-direction: row;
 }
+
 /* .wrapper {
     max-width: 144rem;
     border: 1px red solid;
     margin-inline: auto;
 } */
 .center-v {
-    justify-content: center;
+  justify-content: center;
 }
+
 .center-h {
-    align-items: center;
+  align-items: center;
 }
+
 .container {
-    max-width: 144rem;
-    margin-inline: auto;
-    padding: 0 1rem;
+  max-width: 144rem;
+  margin-inline: auto;
+}
+
+.container--header {
+  background-color: var(--navbar--bg);
 }
 
 /* Navbar */
@@ -63,41 +75,74 @@ span {
   background-color: var(--navbar--bg);
   border-bottom: 3px solid hsl(0, 0%, 0%);
   padding: 1rem 0;
+  margin-inline: auto;
 }
 
 .navbar {
-    justify-content: space-between;
-    /* margin: 2rem 0; */
+  justify-content: space-between;
+  /* margin: 2rem 0; */
 }
 
 .logo {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 .nav__links {
-    font-size: 3rem;
-    padding: 0 1.5rem;
-    text-decoration: none;
+  font-size: 3rem;
+  padding: 0 1.5rem;
+  text-decoration: none;
 }
 
 /* Hero Section */
 .hero {
-    border: 1px blue solid;
-    margin: 2rem auto;
+  border: 1px blue solid;
+  margin-top: var(--v-margin);
+  margin-bottom: var(--v-margin);
+  padding: var(--padding);
 }
 
 /* About Section */
 .about {
-    border: 1px green solid;
-    margin: 2rem auto;
-    background-color: var(--card--bg);
+  border: 3px solid hsl(0, 0%, 0%);
+  border-radius: 5px;
+  box-shadow: -2px 3px 6px hsl(0, 0%, 25%);
+  background-color: var(--card--bg);
+  margin-top: var(--v-margin);
+  margin-bottom: var(--v-margin);
+  padding: var(--padding);
 }
 
 /* Portfolio Section */
+.projects {
+  border: 3px solid hsl(0, 0%, 0%);
+  border-radius: 5px;
+  box-shadow: -2px 3px 6px hsl(0, 0%, 25%);
+  background-color: var(--card--bg);
+  margin-top: var(--v-margin);
+  margin-bottom: var(--v-margin);
+  padding: var(--padding);
+  height: 100px;
+}
 
 /* Contact Section */
+.contact {
+  border: 3px solid hsl(0, 0%, 0%);
+  border-radius: 5px;
+  box-shadow: -2px 3px 6px hsl(0, 0%, 25%);
+  background-color: var(--card--bg);
+  margin-top: var(--v-margin);
+  margin-bottom: var(--v-margin);
+  padding: var(--padding);
+  height: 200px;
+}
 
 /* Footer Section */
+.footer {
+  background-color: var(--navbar--bg);
+  border-top: 3px solid hsl(0, 0%, 0%);
+  padding: 3rem 0;
+  margin-inline: auto;
+}
 
 /* -------------------- */
 /* COMING SOON SECTION */
