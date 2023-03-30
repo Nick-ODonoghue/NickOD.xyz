@@ -2,14 +2,14 @@
 
 :root {
     /* Background Colours */
-    --site--bg: hsl(120, 73%, 75%);
-    --card--bg: hsl(46, 100%, 72%);
-    --navbar--bg: hsl(46, 100%, 82%);
+    --site-bg: hsl(120, 73%, 75%);
+    --card-bg: hsl(46, 100%, 72%);
+    --navbar-bg: hsl(46, 100%, 82%);
     /* Accents */
     --bg-accent-yellow: hsl(53, 100%, 91%);
-    --bg-accent-teal: #d3fade;
+    --btn-accent: hsl(43, 100%, 50%);
     /* Font Colours */
-    --light: hsl(120, 15%, 88%);
+    --txt-light: hsl(120, 15%, 88%);
     --txt-dark: hsl(250, 18%, 19%);
     /* Margins */
     --v-margin: 2rem;
@@ -22,7 +22,7 @@
 }
 
 body {
-    background-color: var(--site--bg);
+    background-color: var(--site-bg);
     font-family: "Roboto Mono", Courier, monospace;
 }
 
@@ -71,7 +71,7 @@ span {
 
 /* Navbar */
 .header {
-    background-color: var(--navbar--bg);
+    background-color: var(--navbar-bg);
     border-bottom: var(--border);
     padding: 1rem;
     margin-inline: auto;
@@ -105,7 +105,7 @@ span {
     position: fixed;
     bottom: 2rem;
     right: 2rem;
-    background-color: var(--site--bg);
+    background-color: var(--site-bg);
     opacity: .9;
     width: 50px;
     /* border-radius: 50%; */
@@ -147,7 +147,7 @@ span {
         gap: 0;
         flex-direction: column;
         justify-content: center;
-        background-color: var(--card--bg);
+        background-color: var(--card-bg);
         border-top: var(--border);
         border-left: var(--border);
         width: 65%;
@@ -197,24 +197,35 @@ span {
     }
 }
 
-/* About Section */
-.about {
+/* Tech Stack Section */
+.tech {
     border: var(--border);
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadows);
-    background-color: var(--card--bg);
+    background-color: var(--card-bg);
     margin-top: var(--v-margin);
     margin-bottom: var(--v-margin);
 }
 
-.about--header {
-    background-color: var(--navbar--bg);
+.tech__header {
+    background-color: var(--navbar-bg);
     padding: var(--padding);
     border-bottom: var(--border);
 }
 
-.about--container {
+.tech__container {
     padding: var(--padding);
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.tech__icons {
+    gap: 1rem;
+}
+
+.tech__icon {
+    height: 50px;
+    width: 50px;
 }
 
 /* Portfolio Section */
@@ -222,13 +233,13 @@ span {
     border: var(--border);
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadows);
-    background-color: var(--card--bg);
+    background-color: var(--card-bg);
     margin-top: var(--v-margin);
     margin-bottom: var(--v-margin);
 }
 
 .projects--header {
-    background-color: var(--navbar--bg);
+    background-color: var(--navbar-bg);
     padding: var(--padding);
     border-bottom: var(--border);
 }
@@ -257,13 +268,13 @@ span {
     border: var(--border);
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadows);
-    background-color: var(--card--bg);
+    background-color: var(--card-bg);
     margin-top: var(--v-margin);
     margin-bottom: var(--v-margin);
 }
 
 .contact--header {
-    background-color: var(--navbar--bg);
+    background-color: var(--navbar-bg);
     padding: var(--padding);
     border-bottom: var(--border);
 }
@@ -274,7 +285,7 @@ span {
 
 /* Footer Section */
 .footer {
-    background-color: var(--navbar--bg);
+    background-color: var(--navbar-bg);
     border-top: var(--border);
     padding: 1rem 0;
     margin-inline: auto;
