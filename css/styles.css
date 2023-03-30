@@ -35,6 +35,10 @@ span {
     color: var(--txt-dark);
 }
 
+#typewriter__text {
+    font-size: 4rem;
+}
+
 /* Utilities */
 .set-grid {
     display: grid;
@@ -179,6 +183,18 @@ span {
 .hero__title {
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+/* Hero Typewriter Effect */
+
+.blinker {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
 }
 
 /* About Section */
