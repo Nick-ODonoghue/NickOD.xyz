@@ -129,22 +129,25 @@ span {
 
     .nav__menu {
         position: fixed;
-        left: 100%;
-        top: 0px;
+        right: -100%;
+        top: 0;
         gap: 0;
         flex-direction: column;
+        justify-content: center;
         background-color: var(--card--bg);
-        width: 80%;
-        height: 80%;
-        transition: 0.3s;
+        border-left: var(--border);
+        border-bottom: var(--border);
+        width: 65%;
+        height: 75%;
+        transition: 0.5s;
     }
 
     .nav__link {
-        margin: 3rem 0;
+        margin: 2rem 0;
     }
 
     .nav__menu.active {
-        left: 0;
+        right: 0;
     }
 }
 
