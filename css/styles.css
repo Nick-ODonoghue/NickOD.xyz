@@ -1,193 +1,198 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
 
 :root {
-  /* Background Colours */
-  --site--bg: hsl(120, 73%, 75%);
-  --card--bg: hsl(46, 100%, 72%);
-  --navbar--bg: hsl(46, 100%, 82%);
-  /* Accents */
-  --bg-accent-yellow: hsl(53, 100%, 91%);
-  --bg-accent-teal: #d3fade;
-  /* Font Colours */
-  --light: hsl(120, 15%, 88%);
-  --txt-dark: hsl(250, 18%, 19%);
-  /* Margins */
-  --v-margin: 2rem;
-  --padding: 1rem;
-  /* Borders */
-  --border: 3px solid hsl(0, 0%, 0%);
-  --border-radius: 5px;
-  /* Shadows */
-  --box-shadows: -2px 3px 6px hsl(0, 0%, 25%);
+    /* Background Colours */
+    --site--bg: hsl(120, 73%, 75%);
+    --card--bg: hsl(46, 100%, 72%);
+    --navbar--bg: hsl(46, 100%, 82%);
+    /* Accents */
+    --bg-accent-yellow: hsl(53, 100%, 91%);
+    --bg-accent-teal: #d3fade;
+    /* Font Colours */
+    --light: hsl(120, 15%, 88%);
+    --txt-dark: hsl(250, 18%, 19%);
+    /* Margins */
+    --v-margin: 2rem;
+    --padding: 1rem;
+    /* Borders */
+    --border: 3px solid hsl(0, 0%, 0%);
+    --border-radius: 5px;
+    /* Shadows */
+    --box-shadows: -2px 3px 6px hsl(0, 0%, 25%);
 }
 
 body {
-  background-color: var(--site--bg);
-  font-family: "Roboto Mono", Courier, monospace;
+    background-color: var(--site--bg);
+    font-family: "Roboto Mono", Courier, monospace;
 }
 
 /* Typography */
 a {
-  color: var(--txt-dark);
+    color: var(--txt-dark);
 }
 
 span {
-  color: var(--txt-dark);
+    color: var(--txt-dark);
 }
 
 /* Utilities */
 .set-grid {
-  display: grid;
+    display: grid;
 }
 
 .set-flex {
-  display: flex;
+    display: flex;
 }
 
 .set-col {
-  flex-direction: column;
+    flex-direction: column;
 }
 
 .set-row {
-  flex-direction: row;
+    flex-direction: row;
 }
 
 .center-v {
-  justify-content: center;
+    justify-content: center;
 }
 
 .center-h {
-  align-items: center;
+    align-items: center;
 }
 
 .container {
-  max-width: 144rem;
-  margin-inline: auto;
+    max-width: 144rem;
+    margin-inline: auto;
 }
 
 /* Navbar */
 .header {
-  background-color: var(--navbar--bg);
-  border-bottom: var(--border);
-  padding: 1rem;
-  margin-inline: auto;
-  position: sticky;
-  top: 0;
+    background-color: var(--navbar--bg);
+    border-bottom: var(--border);
+    padding: 1rem;
+    margin-inline: auto;
+    position: sticky;
+    top: 0;
 }
 
 .navbar {
-  justify-content: space-between;
+    justify-content: space-between;
 }
 
 .logo {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 .nav__links {
-  font-size: 3rem;
-  padding: 0 1.5rem;
-  text-decoration: none;
-  display: none;
+    font-size: 3rem;
+    padding: 0 1.5rem;
+    text-decoration: none;
+    display: none;
 }
 
 /* Hero Section */
 .hero {
-  margin: 5rem 0;
-  padding: var(--padding);
+    margin: 5rem 0;
+    padding: var(--padding);
 }
 
 .hero--text {
-  gap: 1.5rem;
+    gap: 1.5rem;
 }
 
 .hero__name {
-  font-size: 4.5rem;
+    font-size: 4.5rem;
 }
 
 .hero__title {
-  font-size: 1.5rem;
-  font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 /* About Section */
 .about {
-  border: var(--border);
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadows);
-  background-color: var(--card--bg);
-  margin-top: var(--v-margin);
-  margin-bottom: var(--v-margin);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadows);
+    background-color: var(--card--bg);
+    margin-top: var(--v-margin);
+    margin-bottom: var(--v-margin);
 }
 
 .about--header {
-  background-color: var(--navbar--bg);
-  padding: var(--padding);
-  border-bottom: var(--border);
+    background-color: var(--navbar--bg);
+    padding: var(--padding);
+    border-bottom: var(--border);
 }
 
 .about--container {
-  padding: var(--padding);
+    padding: var(--padding);
 }
 
 /* Portfolio Section */
 .projects {
-  border: var(--border);
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadows);
-  background-color: var(--card--bg);
-  margin-top: var(--v-margin);
-  margin-bottom: var(--v-margin);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadows);
+    background-color: var(--card--bg);
+    margin-top: var(--v-margin);
+    margin-bottom: var(--v-margin);
 }
 
 .projects--header {
-  background-color: var(--navbar--bg);
-  padding: var(--padding);
-  border-bottom: var(--border);
+    background-color: var(--navbar--bg);
+    padding: var(--padding);
+    border-bottom: var(--border);
 }
 
 .projects--container {
-  padding: var(--padding);
+    padding: var(--padding);
 }
 
 .fullstack--projects__title>span {
-  font-size: 12px;
-  font-weight: 500;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .api--projects__title>span {
-  font-size: 12px;
-  font-weight: 500;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .clone--projects__title>span {
-  font-size: 12px;
-  font-weight: 500;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 /* Contact Section */
 .contact {
-  border: var(--border);
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadows);
-  background-color: var(--card--bg);
-  margin-top: var(--v-margin);
-  margin-bottom: var(--v-margin);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadows);
+    background-color: var(--card--bg);
+    margin-top: var(--v-margin);
+    margin-bottom: var(--v-margin);
 }
 
 .contact--header {
-  background-color: var(--navbar--bg);
-  padding: var(--padding);
-  border-bottom: var(--border);
+    background-color: var(--navbar--bg);
+    padding: var(--padding);
+    border-bottom: var(--border);
 }
 
 .contact--container {
-  padding: var(--padding);
+    padding: var(--padding);
 }
 
 /* Footer Section */
 .footer {
-  background-color: var(--navbar--bg);
-  border-top: var(--border);
-  padding: 3rem 0;
-  margin-inline: auto;
+    background-color: var(--navbar--bg);
+    border-top: var(--border);
+    padding: 1rem 0;
+    margin-inline: auto;
+}
+
+.footer>.container>h2 {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
 }
