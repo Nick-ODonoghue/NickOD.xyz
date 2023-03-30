@@ -1,6 +1,6 @@
 const textArray = ["Hi, I'm Nick"];
 let textPosition = 0;
-const speed = 250;
+const speed = 100;
 
 export function typewriter() {
 
