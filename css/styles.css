@@ -79,15 +79,73 @@ span {
     justify-content: space-between;
 }
 
-.logo {
+.brand {
     font-size: 2rem;
 }
 
-.nav__links {
+.nav__menu {
+    display: flex;
+    gap: 3rem;
+}
+
+.nav__item {
     font-size: 3rem;
-    padding: 0 1.5rem;
     text-decoration: none;
+    transition: 0.7s ease;
+}
+
+/* Hamburger */
+.hamburger {
     display: none;
+    cursor: pointer;
+}
+
+.hamburger__bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: hsl(0, 0%, 0%);
+}
+
+@media(max-width:768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .hamburger__bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .hamburger__bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .hamburger__bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav__menu {
+        position: fixed;
+        left: 100%;
+        top: 0px;
+        gap: 0;
+        flex-direction: column;
+        background-color: var(--card--bg);
+        width: 80%;
+        height: 80%;
+        transition: 0.3s;
+    }
+
+    .nav__link {
+        margin: 3rem 0;
+    }
+
+    .nav__menu.active {
+        left: 0;
+    }
 }
 
 /* Hero Section */

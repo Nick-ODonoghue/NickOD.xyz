@@ -1,3 +1,3 @@
-import { screenWidth } from "./features/test.js";
+import { hamburger } from "./features/hamburger.js";
 
-screenWidth();
+hamburger()
