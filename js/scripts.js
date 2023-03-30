@@ -1,4 +1,3 @@
-console.log(`It Works!`);
+import { screenWidth } from "./features/test.js";
 
-let scrWidth = window.innerWidth;
-console.log(scrWidth);
+screenWidth();
