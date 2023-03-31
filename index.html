@@ -13,6 +13,7 @@
 <body>
     <main>
 
+        <!-- Hambuger Menu -->
         <div class="hamburger set-flex center-v center-h">
             <span class="hamburger__bar"></span>
             <span class="hamburger__bar"></span>
@@ -28,9 +29,10 @@
                     </div>
                     <ul class="nav__menu set-flex center-h">
                         <!-- <li><a href="#" class="nav__links">home</a></li> -->
-                        <li class="nav__link"><a href="#" class="nav__item">about</a></li>
-                        <li class="nav__link"><a href="#" class="nav__item">portfolio</a></li>
-                        <li class="nav__link"><a href="#" class="nav__item">contact</a></li>
+                        <li class="nav__link"><a href="#home" class="nav__item">home</a></li>
+                        <li class="nav__link"><a href="#tech" class="nav__item">tech-stack</a></li>
+                        <li class="nav__link"><a href="#projects" class="nav__item">portfolio</a></li>
+                        <li class="nav__link"><a href="#contact" class="nav__item">contact</a></li>
                     </ul>
                     <!-- <div class="hamburger">
                         <span class="hamburger__bar"></span>
@@ -42,7 +44,7 @@
         </header>
 
         <!-- Hero Section -->
-        <section class="hero container">
+        <section id="home" class="hero container">
             <div class="hero--text set-flex set-col">
                 <h2 id="typewriter__text"></h2>
                 <h1 class="hero__title">Full-Stack Web Developer</h1>
@@ -50,7 +52,7 @@
         </section>
 
         <!-- tech Section -->
-        <section class="tech container">
+        <section id="tech" class="tech container">
             <div class="tech__header">
                 <h2 class="tech__title">Tech Stack</h2>
             </div>
@@ -99,7 +101,7 @@
         </section>
 
         <!-- Projects Section -->
-        <section class="projects container">
+        <section id="projects" class="projects container">
             <div class="projects--header">
                 <h2 class="fullstack--projects__title">Full-Stack Projects <span>- From idea on paper to fully working
                         web-app</span></h2>
@@ -173,7 +175,7 @@
         </section>
 
         <!-- Contact Section -->
-        <section class="contact container">
+        <section id="contact" class="contact container">
             <div class="contact--header">
                 <h2 class="contact__title">Contact Me</h2>
             </div>

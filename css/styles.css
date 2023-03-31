@@ -24,6 +24,13 @@
     --box-shadows: -2px 3px 6px hsl(0, 0%, 25%);
 }
 
+/* Smooth Scroll */
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: var(--scroll-padding, 5rem);
+}
+
 body {
     background-color: var(--site-bg);
     font-family: var(--site-font);
