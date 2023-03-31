@@ -24,13 +24,6 @@
     --box-shadows: -2px 3px 6px hsl(0, 0%, 25%);
 }
 
-/* Smooth Scroll */
-
-html {
-    scroll-behavior: smooth;
-    scroll-padding: var(--scroll-padding, 5rem);
-}
-
 body {
     background-color: var(--site-bg);
     font-family: var(--site-font);
@@ -80,6 +73,35 @@ span {
     margin-inline: auto;
 }
 
+/* Smooth Scroll */
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: var(--scroll-padding, 5rem);
+}
+
+/* Animations */
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    z-index: 1;
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
 /* Navbar */
 .header {
     background-color: var(--navbar-bg);
@@ -88,6 +110,7 @@ span {
     margin-inline: auto;
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 
 .navbar {
@@ -181,7 +204,7 @@ span {
     /* margin-top: 5rem;
     margin-bottom: 5rem; */
     padding: var(--padding);
-    height: calc(100vh - var(--scroll-padding));
+    min-height: calc(100vh - var(--scroll-padding));
 }
 
 .hero--text {
