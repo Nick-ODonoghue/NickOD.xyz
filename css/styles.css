@@ -178,9 +178,10 @@ span {
 
 /* Hero Section */
 .hero {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    /* margin-top: 5rem;
+    margin-bottom: 5rem; */
     padding: var(--padding);
+    height: calc(100vh - var(--scroll-padding));
 }
 
 .hero--text {
@@ -200,6 +201,8 @@ span {
 
 .blinker {
     animation: blinker 1s linear infinite;
+    position: absolute;
+    z-index: -1;
 }
 
 @keyframes blinker {

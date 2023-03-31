@@ -12,3 +12,5 @@ export function hamburger() {
         navMenu.classList.remove("active");
     }))
 }
+
+hamburger()
