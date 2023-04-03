@@ -355,7 +355,7 @@ html {
     gap: 2rem;
 }
 
-.fullstack__projects__title>span {
+.projects__title>span {
     font-size: 12px;
     font-weight: 500;
 }
