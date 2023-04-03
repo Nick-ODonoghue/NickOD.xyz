@@ -275,27 +275,27 @@ html {
     margin-bottom: var(--v-margin);
 }
 
-.projects--header {
+.projects__header {
     background-color: var(--navbar-bg);
     padding: var(--padding);
     border-bottom: var(--border);
 }
 
-.projects--container {
+.projects__container {
     padding: var(--padding);
 }
 
-.fullstack--projects__title>span {
+.fullstack__projects__title>span {
     font-size: 12px;
     font-weight: 500;
 }
 
-.api--projects__title>span {
+.api__projects__title>span {
     font-size: 12px;
     font-weight: 500;
 }
 
-.clone--projects__title>span {
+.clone__projects__title>span {
     font-size: 12px;
     font-weight: 500;
 }
@@ -310,13 +310,13 @@ html {
     margin-bottom: var(--v-margin);
 }
 
-.contact--header {
+.contact__header {
     background-color: var(--navbar-bg);
     padding: var(--padding);
     border-bottom: var(--border);
 }
 
-.contact--container {
+.contact__container {
     padding: var(--padding);
 }
 
