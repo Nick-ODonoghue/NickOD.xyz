@@ -211,15 +211,21 @@ html {
 }
 
 .project__card__image_aoy {
-    background: url(../assets/images/AllofYou.jpg) no-repeat center center/cover;
+    background-image: url(../assets/images/AllofYou.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
     max-width: 100%;
-    height: 400px;
+    height: 300px;
 }
 
 .project__card__image_ebc {
-    background: url(../assets/images/EveryBiteCounts.jpg) no-repeat center top/cover;
+    background-image: url(../assets/images/EveryBiteCounts.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
     max-width: 100%;
-    height: 400px;
+    height: 300px;
 }
 
 .project__card__content {
@@ -353,19 +359,10 @@ html {
     margin: 2rem 0;
     padding: var(--padding);
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .projects__title>span {
-    font-size: 12px;
-    font-weight: 500;
-}
-
-.api__projects__title>span {
-    font-size: 12px;
-    font-weight: 500;
-}
-
-.clone__projects__title>span {
     font-size: 12px;
     font-weight: 500;
 }
