@@ -91,6 +91,7 @@ html {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
+    -webkit-transition: all 1s;
     transition: all 1s;
 }
 
@@ -105,6 +106,7 @@ html {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-25%);
+    -webkit-transition: all 1s;
     transition: all 1s;
 }
 
@@ -117,6 +119,7 @@ html {
 
 @media(prefers-reduced-motion) {
     .hidden {
+        -webkit-transition: none;
         transition: none;
     }
 }
@@ -148,6 +151,7 @@ html {
 .nav__item {
     font-size: 3rem;
     text-decoration: none;
+    -webkit-transition: 0.7s ease;
     transition: 0.7s ease;
 }
 
@@ -205,6 +209,7 @@ html {
         border-left: var(--border);
         width: 65%;
         height: 75%;
+        -webkit-transition: 0.7s;
         transition: 0.7s;
     }
 
@@ -282,6 +287,7 @@ html {
     border-radius: var(--border-radius);
     border: var(--border);
     box-shadow: var(--box-shadows);
+    -webkit-transition: all .7s;
     transition: all .5s;
 }
 
@@ -442,6 +448,7 @@ html {
     font-family: var(--site-font);
     font-size: 1.4rem;
     box-shadow: var(--box-shadows);
+    -webkit-transition: box-shadow .5s;
     transition: box-shadow .5s;
 }
 
@@ -459,6 +466,7 @@ html {
     font-size: 1.4rem;
     resize: none;
     box-shadow: var(--box-shadows);
+    -webkit-transition: box-shadow .5s;
     transition: box-shadow .5s;
 }
 
@@ -478,6 +486,7 @@ html {
     margin-top: 20px;
     background: var(--btn-contact);
     cursor: pointer;
+    -webkit-transition: all .5s;
     transition: all .5s;
 }
 
@@ -509,6 +518,7 @@ html {
     background-color: var(--btn-contact-hover);
     border-radius: 50%;
     padding: .5rem;
+    -webkit-transition: all 1s;
     transition: all 1s;
     cursor: pointer;
 }
