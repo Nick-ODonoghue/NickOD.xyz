@@ -428,6 +428,12 @@ html {
 .form-wrap .form-group label {
     display: block;
     color: #666;
+    font-family: var(--site-font);
+    font-size: 1.4rem;
+}
+
+.no-outline:focus {
+    outline: none;
 }
 
 .form-wrap .form-group input {
@@ -435,6 +441,31 @@ html {
     padding: 10px;
     border: #ddd 1px solid;
     border-radius: 5px;
+    font-family: var(--site-font);
+    font-size: 1.4rem;
+    box-shadow: var(--box-shadows);
+    transition: box-shadow .5s;
+}
+
+.form-wrap .form-group input:focus {
+    box-shadow: none;
+}
+
+.form-wrap .form-group textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: #ddd 1px solid;
+    border-radius: 5px;
+    font-family: var(--site-font);
+    font-size: 1.4rem;
+    resize: none;
+    box-shadow: var(--box-shadows);
+    transition: box-shadow .5s;
+}
+
+.form-wrap .form-group textarea:focus {
+    box-shadow: none;
 }
 
 .form-wrap button {
