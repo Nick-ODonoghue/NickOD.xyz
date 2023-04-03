@@ -161,7 +161,6 @@ html {
     background-color: var(--site-bg);
     opacity: .9;
     width: 50px;
-    /* border-radius: 50%; */
     border: var(--border);
     z-index: 999;
 }
@@ -209,7 +208,7 @@ html {
     }
 
     .nav__link {
-        margin: 2rem 0;
+        margin: var(--v-margin) 0;
     }
 
     .nav__menu.active {
@@ -293,8 +292,6 @@ html {
 
 /* Hero Section */
 .hero {
-    /* margin-top: 5rem;
-    margin-bottom: 5rem; */
     padding: var(--padding);
     min-height: calc(100vh - var(--scroll-padding));
 }
@@ -304,7 +301,7 @@ html {
 }
 
 #typewriter__text {
-    font-size: 4.5rem;
+    font-size: 4rem;
 }
 
 .hero__title {
@@ -374,7 +371,7 @@ html {
 }
 
 .projects__container {
-    margin: 2rem 0;
+    margin: var(--v-margin) 0;
     padding: var(--padding);
     gap: 2rem;
     flex-wrap: wrap;
