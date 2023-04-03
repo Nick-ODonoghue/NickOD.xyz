@@ -11,7 +11,10 @@
     --project-card-bg: hsl(46, 100%, 82%);
     /* Accents */
     --bg-accent-yellow: hsl(53, 100%, 91%);
-    --btn-accent: hsl(43, 100%, 50%);
+    --btn-project: hsl(43, 100%, 50%);
+    --btn-project-hover: hsl(43, 100%, 45%);
+    --btn-contact: var(--site-bg);
+    --btn-contact-hover: hsl(120, 73%, 65%);
     /* Font Colours */
     --txt-light: hsl(120, 15%, 88%);
     --txt-dark: hsl(250, 18%, 19%);
@@ -275,7 +278,7 @@ html {
     text-decoration: none;
     padding: 5px 30px;
     cursor: pointer;
-    background-color: var(--btn-accent);
+    background-color: var(--btn-project);
     border-radius: var(--border-radius);
     border: var(--border);
     box-shadow: var(--box-shadows);
@@ -284,7 +287,8 @@ html {
 
 .project__btn:hover,
 .project__btn:focus {
-    background-color: var(--btn-accent) box-shadow: none;
+    background-color: var(--btn-project-hover);
+    box-shadow: none;
 }
 
 /* Hero Section */
@@ -403,6 +407,7 @@ html {
 }
 
 .form-wrap {
+    font-family: var(--site-font);
     background: var(--navbar-bg);
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadows);
@@ -433,6 +438,8 @@ html {
 }
 
 .form-wrap button {
+    font-family: var(--site-font);
+    font-weight: 500;
     display: block;
     border-radius: var(--border-radius);
     border: var(--border);
@@ -440,13 +447,13 @@ html {
     width: 100%;
     padding: 10px;
     margin-top: 20px;
-    background: hsl(165, 49%, 52%);
+    background: var(--btn-contact);
     cursor: pointer;
     transition: all .5s;
 }
 
 .form-wrap button:hover {
-    background: #37a08e;
+    background: var(--btn-contact-hover);
     box-shadow: none;
 }
 
