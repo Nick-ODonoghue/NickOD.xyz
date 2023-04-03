@@ -253,6 +253,12 @@ html {
     border-radius: var(--border-radius);
     border: var(--border);
     box-shadow: var(--box-shadows);
+    transition: box-shadow .5s;
+}
+
+.project__btn:hover,
+.project__btn:focus {
+    box-shadow: none;
 }
 
 /* Hero Section */
