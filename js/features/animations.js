@@ -1,4 +1,4 @@
-export function animations() {
+export function animationsTech() {
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
@@ -13,4 +13,21 @@ export function animations() {
     hiddentElements.forEach((el) => observer.observe(el));
 }
 
-animations()
+export function animationsCard() {
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show__card");
+            } else {
+                entry.target.classList.remove("show__card");
+            }
+        });
+    });
+    const hiddentElements = document.querySelectorAll(".hidden__card");
+    hiddentElements.forEach((el) => observer.observe(el));
+}
+
+animationsCard()
+
+animationsTech()
