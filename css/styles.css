@@ -178,8 +178,7 @@ html {
     transition: transform .3s ease-in-out;
 }
 
-.nav__item:hover::before,
-.nav__item:active::before {
+.nav__item:hover::before {
     transform-origin: left;
     transform: scaleX(1);
 }
@@ -291,11 +290,6 @@ html {
     font-size: 1.2rem;
 }
 
-.tech__icon {
-    width: 25px;
-    height: 25px;
-}
-
 .projects__container>.project__card>.project__card__content>.tech__container>.tech__icons>p {
     font-size: 1.3rem;
 }
@@ -381,6 +375,11 @@ html {
 
 .tech__icons {
     gap: 1rem;
+}
+
+.tech__icon {
+    width: 25px;
+    height: 25px;
 }
 
 /* Portfolio Section */
@@ -559,4 +558,63 @@ html {
     .nav__item {
         font-size: 2rem;
     }
+
+    /* Hero Section */
+
+    #typewriter__text {
+        font-size: 6rem;
+    }
+
+    .hero__title {
+        font-size: 2rem;
+    }
+
+    /* Tech Stack Section */
+    .tech {
+        margin-top: calc(var(--v-margin) + 3rem);
+        margin-bottom: calc(var(--v-margin) + 3rem);
+    }
+
+    .tech__header {
+        font-size: 1.2rem;
+    }
+
+    .tech__icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* Cards */
+
+    .project__card__content {
+        gap: 2rem;
+    }
+
+    .project__card__content>h2 {
+        font-size: 2.4rem;
+    }
+
+    .project__card__content>p {
+        font-size: 1.5rem;
+    }
+
+    .projects__container>.project__card>.project__card__content>.tech__container>.tech__icons>p {
+        font-size: 1.6rem;
+    }
+
+    .project__card__tech__icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .project__card__btn_container {
+        justify-content: space-around;
+    }
+
+    .project__btn {
+        font-size: 1.8rem;
+        padding: 6px 40px;
+    }
+
+
 }
