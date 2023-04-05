@@ -447,13 +447,12 @@ html {
     border-radius: 5px;
     font-family: var(--site-font);
     font-size: 1.4rem;
-    box-shadow: var(--box-shadows);
     -webkit-transition: box-shadow .5s;
     transition: box-shadow .5s;
 }
 
 .form-wrap .form-group input:focus {
-    box-shadow: none;
+    box-shadow: var(--box-shadows);
 }
 
 .form-wrap .form-group textarea {
@@ -465,13 +464,12 @@ html {
     font-family: var(--site-font);
     font-size: 1.4rem;
     resize: none;
-    box-shadow: var(--box-shadows);
     -webkit-transition: box-shadow .5s;
     transition: box-shadow .5s;
 }
 
 .form-wrap .form-group textarea:focus {
-    box-shadow: none;
+    box-shadow: var(--box-shadows);
 }
 
 .form-wrap button {
