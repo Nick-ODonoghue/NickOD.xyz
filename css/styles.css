@@ -410,6 +410,11 @@ html {
     font-weight: 500;
 }
 
+.project__card__tech__icon {
+    width: 25px;
+    height: 25px;
+}
+
 /* Contact Section */
 .contact {
     border: var(--border);
@@ -513,9 +518,8 @@ html {
     box-shadow: none;
 }
 
-.form-wrap .bottom-text {
+.form-wrap .btn {
     font-size: 13px;
-    margin-top: 20px;
 }
 
 /* Footer Section */
@@ -638,42 +642,22 @@ html {
         max-width: 50%;
     }
 
-    .form-wrap .bottom-text {
-        font-size: 13px;
-        margin-top: 20px;
+    .form-wrap .btn {
+        font-size: 1.8rem;
     }
 
     /* Footer Section */
-    .footer {
-        background-color: var(--navbar-bg);
-        border-top: var(--border);
-        padding: 1.2rem 0;
-        margin-inline: auto;
-    }
 
     .footer>.container {
-        gap: 2rem;
+        gap: 3rem;
     }
 
     .fa-brands {
-        font-size: 1.4rem;
-        color: var(--social-icon-bg);
-        background-color: var(--btn-contact-hover);
-        border-radius: 50%;
-        padding: .5rem;
-        -webkit-transition: all 1s;
-        transition: all 1s;
-        cursor: pointer;
-    }
-
-    .fa-brands:hover {
-        color: var(--btn-contact-hover);
-        background-color: var(--social-icon-bg);
+        font-size: 1.8rem;
     }
 
     .footer>.container>h2 {
-        font-size: 1.2rem;
-        letter-spacing: 1px;
+        font-size: 1.4rem;
     }
 
 }
