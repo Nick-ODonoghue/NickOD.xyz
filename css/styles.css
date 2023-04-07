@@ -257,6 +257,7 @@ html {
     box-shadow: var(--box-shadows-cards);
     border-radius: var(--border-radius);
     overflow: hidden;
+    /* width: min(400px, 90%); */
 }
 
 .project__card__image {
@@ -428,11 +429,13 @@ html {
     background-color: var(--navbar-bg);
     padding: var(--padding);
     border-bottom: var(--border);
+    width: 100%;
 }
 
 .contact__container {
     padding: var(--padding);
     margin: var(--v-margin);
+    width: min(500px, 95%);
 }
 
 .form-wrap {
