@@ -257,7 +257,7 @@ html {
     box-shadow: var(--box-shadows-cards);
     border-radius: var(--border-radius);
     overflow: hidden;
-    /* width: min(400px, 90%); */
+    width: min(400px, 95%);
 }
 
 .project__card__image {
@@ -383,6 +383,13 @@ html {
 }
 
 /* Portfolio Section */
+
+.card__container {
+    gap: 4rem;
+    margin: var(--v-margin);
+    flex-wrap: wrap;
+}
+
 .projects {
     border: var(--border);
     border-radius: var(--border-radius);
@@ -403,6 +410,7 @@ html {
     padding: var(--padding);
     gap: 2rem;
     flex-wrap: wrap;
+    /* width: fit-content; */
 }
 
 .projects__title>span {
@@ -433,9 +441,8 @@ html {
 }
 
 .contact__container {
-    padding: var(--padding);
     margin: var(--v-margin);
-    width: min(500px, 95%);
+    width: min(900px, 95%);
 }
 
 .form-wrap {
@@ -630,10 +637,6 @@ html {
 
     .contact__header {
         width: 100%;
-    }
-
-    .contact__container {
-        width: min(900px, 95%);
     }
 
     form {
