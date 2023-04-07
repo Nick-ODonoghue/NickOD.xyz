@@ -325,16 +325,23 @@ html {
 }
 
 .hero__text {
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 #typewriter__text {
     font-size: 4rem;
+    font-weight: 800;
 }
 
 .hero__title {
-    font-size: 1.65rem;
-    font-weight: 400;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.hero__blurb {
+    font-size: 1.4rem;
+    position: relative;
+    margin-top: 1rem;
 }
 
 /* Hero Typewriter Effect */
@@ -386,7 +393,7 @@ html {
 
 .card__container {
     gap: 4rem;
-    margin: var(--v-margin);
+    margin: var(--v-margin) 0;
     flex-wrap: wrap;
 }
 
