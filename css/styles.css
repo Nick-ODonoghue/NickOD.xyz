@@ -257,7 +257,6 @@ html {
     box-shadow: var(--box-shadows-cards);
     border-radius: var(--border-radius);
     overflow: hidden;
-    width: 90%;
 }
 
 .project__card__image {
