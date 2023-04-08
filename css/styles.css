@@ -342,6 +342,7 @@ html {
     font-size: 1.4rem;
     position: relative;
     margin-top: 1rem;
+    max-width: 500px;
 }
 
 /* Hero Typewriter Effect */
