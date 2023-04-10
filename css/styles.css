@@ -6,18 +6,16 @@
     --site-font-cursive: 'Nanum Pen Script', cursive;
 
     /* Font Colours */
-    --txt-light: hsl(120, 15%, 88%);
     --txt-dark: hsl(250, 18%, 19%);
 
     /* Background Colours */
     --site-bg: hsl(120, 73%, 75%);
     --card-bg: hsl(46, 100%, 72%);
     --navbar-bg: hsl(46, 100%, 82%);
-    --project-card-bg: hsl(46, 100%, 82%);
+    --project-card-bg: var(--navbar-bg);
     --social-icon-bg: hsl(0, 0%, 0%);
 
     /* Accents */
-    --bg-accent-yellow: hsl(53, 100%, 91%);
     --btn-project: hsl(43, 100%, 50%);
     --btn-project-hover: hsl(43, 100%, 45%);
     --btn-contact: var(--site-bg);
@@ -50,7 +48,7 @@ span {
     color: var(--txt-dark);
 }
 
-.tech__container>.tech__icons>p {
+.tech__txt-cursive {
     font-family: var(--site-font-cursive);
     font-size: 1.75rem;
 }
