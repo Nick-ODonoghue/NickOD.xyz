@@ -53,6 +53,11 @@ span {
     font-size: 1.75rem;
 }
 
+.project__tech__txt-cursive {
+    font-family: var(--site-font-cursive);
+    font-size: 1.4rem;
+}
+
 /* Utilities */
 .set-grid {
     display: grid;
@@ -94,10 +99,10 @@ html {
 
 .hidden {
     opacity: 0;
-    filter: blur(5px);
+    filter: blur(10px);
     transform: translateX(-100%);
-    -webkit-transition: all 1.5s .2s;
-    transition: all 1.5s .2s;
+    -webkit-transition: all 1.5s;
+    transition: all 1.5s;
 }
 
 .show {
@@ -263,7 +268,7 @@ html {
     background-size: cover;
     background-position: top left;
     max-width: 100%;
-    height: 300px;
+    height: 250px;
 }
 
 .project__card__image--aoy {
@@ -408,8 +413,8 @@ html {
 }
 
 .project__card__tech__icon {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 }
 
 /* Contact Section */
