@@ -280,16 +280,12 @@ html {
     gap: 1rem;
 }
 
-.project__card__content>h2 {
+.project__card__heading {
     font-size: 1.8rem;
 }
 
-.project__card__content>p {
+.project__card__txt {
     font-size: 1.2rem;
-}
-
-.projects__container>.project__card>.project__card__content>.tech__container>.tech__icons>p {
-    font-size: 1.3rem;
 }
 
 .project__card__btn_container {
