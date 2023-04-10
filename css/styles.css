@@ -98,8 +98,8 @@ html {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
-    -webkit-transition: all 1s;
-    transition: all 1s;
+    -webkit-transition: all 1.5s .2s;
+    transition: all 1.5s .2s;
 }
 
 .show {
@@ -113,8 +113,8 @@ html {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-25%);
-    -webkit-transition: all 1s;
-    transition: all 1s;
+    -webkit-transition: all 1.5s .2s;
+    transition: all 1.5s .2s;
 }
 
 .show__card {
