@@ -279,6 +279,11 @@ html {
     background-image: url(../assets/images/EveryBiteCounts.jpg);
 }
 
+.project__card__image--rqg {
+    background-image: url(../assets/images/RandomQuoteGen.jpg);
+    background-position: center;
+}
+
 .project__card__content {
     background-color: var(--project-card-bg);
     padding: var(--padding);
