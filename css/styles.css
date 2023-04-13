@@ -397,6 +397,11 @@ html {
     height: 25px;
 }
 
+.tech__title>span {
+    font-size: 12px;
+    font-weight: 500;
+}
+
 /* Portfolio Section */
 
 .card__container {
