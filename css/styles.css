@@ -639,7 +639,8 @@ html {
     /* Cards */
 
     .project__card__content {
-        gap: 2rem;
+        justify-content: space-between;
+        /* gap: 2rem; */
     }
 
     .project__card__content>h2 {
@@ -648,6 +649,10 @@ html {
 
     .project__card__content>p {
         font-size: 1.5rem;
+    }
+
+    .project__card__txt {
+        height: 10rem;
     }
 
     .projects__container>.project__card>.project__card__content>.tech__container>.tech__icons>p {
