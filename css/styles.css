@@ -274,6 +274,7 @@ html {
     opacity: .9;
     width: 50px;
     border: var(--border);
+    border-radius: var(--border-radius);
     z-index: 999;
 }
 
@@ -315,6 +316,7 @@ html {
         background-color: var(--card-bg);
         border-top: var(--border);
         border-left: var(--border);
+        border-radius: var(--border-radius) 0 0 0;
         width: 65%;
         height: 75%;
         -webkit-transition: 0.7s;
