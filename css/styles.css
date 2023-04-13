@@ -20,7 +20,7 @@
     --btn-project-hover: hsl(43, 100%, 45%);
     --btn-contact: var(--site-bg);
     --btn-contact-hover: hsl(120, 73%, 65%);
-    --stack-highlight: hsla(120, 73%, 75%, 0.650);
+    --stack-highlight: hsla(309, 100%, 54%, 0.750);
 
     /* Margins */
     --v-margin: 2rem;
@@ -92,42 +92,43 @@ span {
 .highlight {
     position: relative;
     z-index: 1000;
+    font-weight: 500;
 }
 
 .highlight::after {
     content: "";
     position: absolute;
-    left: 0px;
-    bottom: 0px;
+    left: -4px;
+    bottom: -1px;
     width: 50px;
-    height: 7px;
-    transform: skew(-25deg);
+    height: 4px;
+    transform: skew(-45deg);
     background: var(--stack-highlight);
     z-index: -1;
 }
 
 .highlight--ruby::after {
-    width: 30px;
+    width: 33px;
 }
 
 .highlight--psql::after {
-    width: 70px;
+    width: 78px;
 }
 
 .highlight--ror::after {
-    width: 95px;
+    width: 99px;
 }
 
 .highlight--tc::after {
-    width: 138px;
+    width: 143px;
 }
 
 .highlight--ls::after {
-    width: 85px;
+    width: 92px;
 }
 
 .highlight--bs::after {
-    width: 65px;
+    width: 70px;
 }
 
 /* Smooth Scroll */
@@ -642,27 +643,27 @@ html {
 
     /* Utilities */
     .highlight--ruby::after {
-        width: 35px;
+        width: 40px;
     }
 
     .highlight--psql::after {
-        width: 92px;
+        width: 96px;
     }
 
     .highlight--ror::after {
-        width: 118px;
+        width: 122px;
     }
 
     .highlight--tc::after {
-        width: 172px;
+        width: 176px;
     }
 
     .highlight--ls::after {
-        width: 109px;
+        width: 113px;
     }
 
     .highlight--bs::after {
-        width: 82px;
+        width: 86px;
     }
 
     /* Header & Navbar */
