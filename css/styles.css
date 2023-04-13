@@ -137,7 +137,7 @@ html {
     scroll-padding: var(--scroll-padding, 5rem);
 }
 
-/* Animations */
+/* Animations - Cards */
 
 .hidden {
     opacity: 0;
@@ -173,6 +173,41 @@ html {
     .hidden {
         -webkit-transition: none;
         transition: none;
+    }
+}
+
+/* Animations - Arrow */
+
+.arrow__container {
+    position: relative;
+}
+
+.scroll-down-link {
+    position: absolute;
+    cursor: pointer;
+    height: 30px;
+    width: 40px;
+    left: calc(50% - (40px / 2));
+    bottom: -50px;
+    color: hsl(0, 0%, 0%, 0.500);
+    font-size: 50px;
+    text-decoration: none;
+    animation: fade_move_down 1.6s ease-in-out infinite;
+}
+
+@keyframes fade_move_down {
+    0% {
+        transform: translate(0, -20px);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(0, 20px);
+        opacity: 0;
     }
 }
 
@@ -600,6 +635,7 @@ html {
 }
 
 /* Responsiveness */
+
 @media(min-width:768px) {
 
     /* Utilities */
@@ -655,6 +691,12 @@ html {
     .tech__icon {
         width: 50px;
         height: 50px;
+    }
+
+    /* Animations Arrow */
+
+    .scroll-down-link {
+        font-size: 60px;
     }
 
     /* Cards */
@@ -728,6 +770,31 @@ html {
 
     .footer>.container>h2 {
         font-size: 1.4rem;
+    }
+
+}
+
+@media(min-width:1024px) {
+
+    /* Hero Section */
+
+    #typewriter__text {
+        font-size: 10rem;
+    }
+
+    .hero__title {
+        font-size: 3rem;
+    }
+
+    .hero__blurb {
+        font-size: 1.5rem;
+    }
+
+    /* Animations Arrow */
+
+    .scroll-down-link {
+        bottom: -90px;
+        font-size: 70px;
     }
 
 }
