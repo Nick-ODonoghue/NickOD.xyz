@@ -122,10 +122,6 @@ span {
     width: 138px;
 }
 
-/* .highlight--fapi::after {
-    width: 65px;
-} */
-
 .highlight--ls::after {
     width: 85px;
 }
@@ -605,6 +601,31 @@ html {
 
 /* Responsiveness */
 @media(min-width:768px) {
+
+    /* Utilities */
+    .highlight--ruby::after {
+        width: 35px;
+    }
+
+    .highlight--psql::after {
+        width: 92px;
+    }
+
+    .highlight--ror::after {
+        width: 118px;
+    }
+
+    .highlight--tc::after {
+        width: 172px;
+    }
+
+    .highlight--ls::after {
+        width: 109px;
+    }
+
+    .highlight--bs::after {
+        width: 82px;
+    }
 
     /* Header & Navbar */
     .nav__item {
