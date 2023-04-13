@@ -20,6 +20,7 @@
     --btn-project-hover: hsl(43, 100%, 45%);
     --btn-contact: var(--site-bg);
     --btn-contact-hover: hsl(120, 73%, 65%);
+    --stack-highlight: hsla(120, 73%, 75%, 0.650);
 
     /* Margins */
     --v-margin: 2rem;
@@ -86,6 +87,51 @@ span {
 .container {
     width: min(95%, 144rem);
     margin-inline: auto;
+}
+
+.highlight {
+    position: relative;
+    z-index: 1000;
+}
+
+.highlight::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 50px;
+    height: 7px;
+    transform: skew(-25deg);
+    background: var(--stack-highlight);
+    z-index: -1;
+}
+
+.highlight--ruby::after {
+    width: 30px;
+}
+
+.highlight--psql::after {
+    width: 70px;
+}
+
+.highlight--ror::after {
+    width: 95px;
+}
+
+.highlight--tc::after {
+    width: 138px;
+}
+
+/* .highlight--fapi::after {
+    width: 65px;
+} */
+
+.highlight--ls::after {
+    width: 85px;
+}
+
+.highlight--bs::after {
+    width: 65px;
 }
 
 /* Smooth Scroll */
