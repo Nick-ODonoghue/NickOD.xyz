@@ -9,8 +9,7 @@ export function typewriter() {
 
     // Query the DOM for the element with the ID "typewriter__text" and set its innerHTML property to the first element in the "textArray" array up to the current "textPosition"
     document.querySelector("#typewriter__text").innerHTML = textArray[0].substring(0,
-        // Add a span element with a class of "blinker" to simulate a blinking cursor
-        textPosition) + `<span class="blinker">\u25ae</span>`;
+        textPosition);
 
     // Check if "textPosition" is not equal to the length of the first element in the "textArray" array
     if (textPosition++ != textArray[0].length)
