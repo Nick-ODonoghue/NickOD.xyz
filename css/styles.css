@@ -9,18 +9,18 @@
     --txt-dark: hsl(250, 18%, 19%);
 
     /* Background Colours */
-    --site-bg: hsl(60, 80%, 90%);
+    --site-bg: #fafad1;
     --navbar-bg: hsl(240, 67%, 94%);
-    --card-bg: hsla(60, 80%, 90%);
+    --card-bg: hsl(54, 46%, 80%);
     --project-card-bg: var(--navbar-bg);
-    --social-icon-bg: var(--site-bg);
-    --social-icon-colour: var(--card-bg);
+    --social-icon-bg: var(--btn-project);
+    --social-icon-colour: var(--site-bg);
 
     /* Accents */
     --btn-project: hsl(43, 100%, 50%);
     --btn-project-hover: hsl(43, 100%, 45%);
     --btn-contact: var(--site-bg);
-    --btn-contact-hover: hsl(120, 73%, 65%);
+    --btn-contact-hover: var(--card-bg);
     --stack-highlight: hsla(309, 100%, 54%, 0.750);
 
     /* Margins / Paddings / Gaps*/
@@ -44,8 +44,6 @@ body {
     background-color: var(--site-bg);
     font-family: var(--site-font);
 }
-
-/* Typography */
 
 /* Utilities */
 
@@ -182,6 +180,7 @@ html {
 }
 
 /* Navbar */
+
 .header {
     background-color: var(--navbar-bg);
     border-bottom: var(--border);
@@ -237,6 +236,7 @@ html {
 }
 
 /* Hamburger */
+
 .hamburger {
     display: none;
     cursor: pointer;
@@ -308,6 +308,7 @@ html {
 }
 
 /* Hero Section */
+
 .hero__section {
     padding: var(--padding);
     min-height: calc(100vh - var(--scroll-padding));
@@ -351,6 +352,7 @@ html {
 }
 
 /* Sections */
+
 .section__container {
     border: var(--border);
     border-radius: var(--border-radius);
@@ -428,6 +430,8 @@ html {
     max-width: 100%;
     height: 250px;
 }
+
+/* Portfolio Cards Image Section */
 
 .project__card__image--aoy {
     background-image: url(../assets/images/AllofYou.jpg);
@@ -507,6 +511,7 @@ html {
     background-color: var(--btn-project-hover);
     box-shadow: none;
     text-decoration-line: line-through;
+    cursor: auto;
 }
 
 /* Contact Section */
@@ -602,7 +607,7 @@ html {
 }
 
 .form-wrap .btn:hover {
-    background: var(--card-bg);
+    background: var(--btn-contact-hover);
     box-shadow: none;
 }
 
@@ -611,6 +616,7 @@ html {
 }
 
 /* Footer Section */
+
 .footer {
     background-color: var(--navbar-bg);
     border-top: var(--border);
@@ -635,7 +641,6 @@ html {
 }
 
 .fa-brands:hover {
-    /* color: var(--btn-contact-hover); */
     background-color: black;
 }
 
@@ -649,6 +654,7 @@ html {
 @media(min-width:768px) {
 
     /* Utilities */
+
     .highlight--ruby::after {
         width: 40px;
     }
@@ -704,6 +710,7 @@ html {
     }
 
     /* Sections */
+
     .section__container {
         margin-top: var(--v-margin-lg);
         margin-bottom: var(--v-margin-lg);
@@ -770,6 +777,7 @@ html {
     }
 
     /* Footer Section */
+
     .footer {
         padding: var(--padding-lg) 0;
     }
@@ -780,11 +788,6 @@ html {
 
     .fa-brands {
         font-size: 1.6rem;
-    }
-
-    .fa-brands:hover {
-        color: var(--social-icon-colour);
-        background-color: var(--social-icon-bg);
     }
 
     .footer__container>h2 {
