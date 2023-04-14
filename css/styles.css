@@ -197,12 +197,13 @@ html {
 }
 
 .brand {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 500;
 }
 
 .nav__menu {
     display: flex;
+    align-items: center;
     gap: 3rem;
 }
 
@@ -325,7 +326,7 @@ html {
 }
 
 .hero__title {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 500;
 }
 
@@ -446,7 +447,6 @@ html {
     gap: var(--flex-gap);
     background-color: var(--project-card-bg);
     padding: var(--padding);
-    /* height: 100%; */
 }
 
 .project__card__heading {
@@ -460,19 +460,20 @@ html {
 .project__card__tech__container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: var(--flex-gap);
     padding: 0;
     margin: var(--v-margin) 0;
 }
 
 .project__card__tech__icon {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
 }
 
 .project__tech__txt-cursive {
     font-family: var(--site-font-cursive);
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 .project__card__btn_container {
@@ -671,6 +672,10 @@ html {
         font-size: 2rem;
     }
 
+    .brand {
+        font-size: 2.6rem;
+    }
+
     /* Hero Section */
 
     .hero__text__container {
@@ -714,7 +719,7 @@ html {
     /* Tech Stack Section */
 
     .tech__container {
-        gap: calc(var(--flex-gap) + var(--flex-gap));
+        gap: var(--flex-gap);
         padding: var(--padding-lg);
     }
 
@@ -732,6 +737,26 @@ html {
     .tech__icon-size {
         width: 35px;
         height: 35px;
+    }
+
+    /* Portfolio Cards Section */
+
+    .card__container {
+        gap: var(--flex-gap);
+        padding: var(--padding-lg);
+    }
+
+    .project__card__heading {
+        font-size: 2.2rem;
+    }
+
+    .project__card__txt {
+        font-size: 1.5rem;
+    }
+
+    .project__card__tech__icon {
+        width: 25px;
+        height: 25px;
     }
 
 }
