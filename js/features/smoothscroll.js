@@ -1,6 +1,8 @@
 export function smoothScroll() {
+
     // Grab the element with a class of "header"
     const header = document.querySelector(".header");
+
     // Get the offsetHeight property of the header element
     const headerHeight = header.offsetHeight;
 

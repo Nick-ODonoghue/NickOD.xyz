@@ -1,6 +1,8 @@
 export function hamburger() {
+
     // Grab the element with a class of "hamburger"
     const hamburger = document.querySelector(".hamburger");
+
     // Grab the element with a class of "nav__menu"
     const navMenu = document.querySelector(".nav__menu");
 
