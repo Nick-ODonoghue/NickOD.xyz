@@ -502,6 +502,12 @@ html {
     box-shadow: none;
 }
 
+.project__btn-ooo {
+    background-color: var(--btn-project-hover);
+    box-shadow: none;
+    text-decoration-line: line-through;
+}
+
 /* Contact Section */
 
 .contact__container {
