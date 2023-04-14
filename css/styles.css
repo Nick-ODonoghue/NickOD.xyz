@@ -409,7 +409,7 @@ html {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: var(--flex-gap);
+    gap: calc(var(--flex-gap) + var(--flex-gap));
     padding: var(--padding) .3rem;
 }
 
@@ -718,7 +718,7 @@ html {
     /* Tech Stack Section */
 
     .tech__container {
-        gap: var(--flex-gap);
+        gap: calc(var(--flex-gap-lg) + var(--flex-gap));
         padding: var(--padding-lg);
     }
 
@@ -730,7 +730,6 @@ html {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 4px;
     }
 
     .tech__icon-size {
@@ -741,7 +740,6 @@ html {
     /* Portfolio Cards Section */
 
     .card__container {
-        gap: var(--flex-gap);
         padding: var(--padding-lg);
     }
 
@@ -756,6 +754,12 @@ html {
     .project__card__tech__icon {
         width: 25px;
         height: 25px;
+    }
+
+    /* Contact  */
+
+    .contact__container {
+        padding: var(--padding-lg);
     }
 
     /* Footer Section */
@@ -778,6 +782,31 @@ html {
 
     .footer__container>h2 {
         font-size: 1.4rem;
+    }
+
+}
+
+@media(min-width:1024px) {
+
+    /* Hero Section */
+
+    #typewriter__text {
+        font-size: 10rem;
+    }
+
+    .hero__title {
+        font-size: 3rem;
+    }
+
+    .hero__blurb {
+        font-size: 1.5rem;
+    }
+
+    /* Animations Arrow */
+
+    .scroll-down-link {
+        bottom: -90px;
+        font-size: 70px;
     }
 
 }
