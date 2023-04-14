@@ -28,7 +28,7 @@
     --padding: 1rem;
     --padding-lg: 2rem;
     --flex-gap: 1rem;
-    --flex-gap: 2rem;
+    --flex-gap-lg: 2rem;
 
     /* Borders */
     --border: 3px solid hsl(0, 0%, 0%);
@@ -507,7 +507,7 @@ html {
 .contact__container {
     display: flex;
     justify-content: center;
-    width: min(900px, 95%);
+    width: min(600px, 95%);
     padding: var(--padding) .3rem;
 }
 
@@ -519,7 +519,6 @@ html {
     background: var(--navbar-bg);
     border-radius: var(--border-radius);
     border: var(--border);
-    /* box-shadow: var(--box-shadows-cards); */
     padding: var(--padding);
 }
 
@@ -708,7 +707,7 @@ html {
     }
 
     .section__container__text {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     .section__container__text>span {
@@ -747,7 +746,7 @@ html {
     }
 
     .project__card__heading {
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
 
     .project__card__txt {
@@ -757,6 +756,28 @@ html {
     .project__card__tech__icon {
         width: 25px;
         height: 25px;
+    }
+
+    /* Footer Section */
+    .footer {
+        padding: var(--padding-lg) 0;
+    }
+
+    .footer__container {
+        gap: var(--flex-gap-lg);
+    }
+
+    .fa-brands {
+        font-size: 1.6rem;
+    }
+
+    .fa-brands:hover {
+        color: var(--btn-contact-hover);
+        background-color: var(--social-icon-bg);
+    }
+
+    .footer__container>h2 {
+        font-size: 1.4rem;
     }
 
 }
