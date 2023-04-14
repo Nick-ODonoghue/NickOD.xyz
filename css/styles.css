@@ -24,8 +24,11 @@
 
     /* Margins / Paddings / Gaps*/
     --v-margin: 2rem;
+    --v-margin-lg: 3rem;
     --padding: 1rem;
+    --padding-lg: 2rem;
     --flex-gap: 1rem;
+    --flex-gap: 2rem;
 
     /* Borders */
     --border: 3px solid hsl(0, 0%, 0%);
@@ -181,15 +184,16 @@ html {
 .header {
     background-color: var(--navbar-bg);
     border-bottom: var(--border);
-    padding: 1rem;
-    margin-inline: auto;
+    padding: var(--padding);
     position: sticky;
     top: 0;
     z-index: 999;
 }
 
 .navbar {
+    display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .brand {
@@ -205,6 +209,7 @@ html {
 .nav__item {
     font-size: 3rem;
     text-decoration: none;
+    color: var(--txt-dark);
     -webkit-transition: 0.7s ease;
     transition: 0.7s ease;
     position: relative;
@@ -279,6 +284,7 @@ html {
         gap: 0;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         background-color: var(--card-bg);
         border-top: var(--border);
         border-left: var(--border);
@@ -327,7 +333,7 @@ html {
     font-size: 1.4rem;
     line-height: 22px;
     margin-top: 2rem;
-    max-width: 500px;
+    max-width: 600px;
 }
 
 .arrow__container {
@@ -374,7 +380,7 @@ html {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: calc(var(--flex-gap) + var(--flex-gap));
+    gap: var(--flex-gap);
     padding: var(--padding);
 }
 
@@ -388,7 +394,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: var(--flex-gap);
+    gap: 5px;
 }
 
 .tech__icon-size {
@@ -402,7 +408,7 @@ html {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: calc(var(--flex-gap) + var(--flex-gap));
+    gap: var(--flex-gap);
     padding: var(--padding) .3rem;
 }
 
@@ -440,7 +446,7 @@ html {
     gap: var(--flex-gap);
     background-color: var(--project-card-bg);
     padding: var(--padding);
-    height: 100%;
+    /* height: 100%; */
 }
 
 .project__card__heading {
@@ -511,7 +517,8 @@ html {
     width: 100%;
     background: var(--navbar-bg);
     border-radius: var(--border-radius);
-    box-shadow: var(--box-shadows-cards);
+    border: var(--border);
+    /* box-shadow: var(--box-shadows-cards); */
     padding: var(--padding);
 }
 
@@ -628,4 +635,103 @@ html {
 .footer__container>h2 {
     font-size: 1.2rem;
     letter-spacing: 1px;
+}
+
+/* Responsiveness */
+
+@media(min-width:768px) {
+
+    /* Utilities */
+    .highlight--ruby::after {
+        width: 40px;
+    }
+
+    .highlight--psql::after {
+        width: 96px;
+    }
+
+    .highlight--ror::after {
+        width: 122px;
+    }
+
+    .highlight--tc::after {
+        width: 176px;
+    }
+
+    .highlight--ls::after {
+        width: 113px;
+    }
+
+    .highlight--bs::after {
+        width: 86px;
+    }
+
+    /* Header & Navbar */
+    .nav__item {
+        font-size: 2rem;
+    }
+
+    /* Hero Section */
+
+    .hero__text__container {
+        gap: 1.5rem;
+    }
+
+    #typewriter__text {
+        font-size: 7rem;
+    }
+
+    .hero__title {
+        font-size: 2.8rem;
+    }
+
+    .hero__blurb {
+        font-size: 2rem;
+        line-height: 30px;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    /* Sections */
+    .section__container {
+        margin-top: var(--v-margin-lg);
+        margin-bottom: var(--v-margin-lg);
+    }
+
+    .section__container__header {
+        padding: var(--padding-lg);
+    }
+
+    .section__container__text {
+        font-size: 2rem;
+    }
+
+    .section__container__text>span {
+        font-size: 1.4rem;
+        opacity: .5;
+    }
+
+    /* Tech Stack Section */
+
+    .tech__container {
+        gap: calc(var(--flex-gap) + var(--flex-gap));
+        padding: var(--padding-lg);
+    }
+
+    .tech__txt-cursive {
+        font-size: 2rem;
+    }
+
+    .tech__icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .tech__icon-size {
+        width: 35px;
+        height: 35px;
+    }
+
 }
