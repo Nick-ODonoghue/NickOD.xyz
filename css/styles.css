@@ -9,9 +9,9 @@
     --txt-color: hsl(250, 18%, 19%);
 
     /* Background Colours */
-    --site-bg: #fafad1;
-    --navbar-bg: hsl(240, 67%, 94%);
-    --section-bg: hsl(54, 100%, 80%);
+    --site-bg: #fdfdfd;
+    --navbar-bg: #cabbe9;
+    --section-bg: #eff9ff;
     --project-card-bg: var(--navbar-bg);
     --social-icon-bg: var(--btn-project);
     --social-icon-colour: var(--site-bg);
@@ -43,6 +43,12 @@
 body {
     background-color: var(--site-bg);
     font-family: var(--site-font);
+    color: var(--txt-color);
+}
+
+/* Typography */
+
+a {
     color: var(--txt-color);
 }
 
