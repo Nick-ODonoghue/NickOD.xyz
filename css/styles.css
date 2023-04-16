@@ -6,7 +6,7 @@
     --site-font-cursive: 'Nanum Pen Script', cursive;
 
     /* Font Colours */
-    --txt-dark: hsl(250, 18%, 19%);
+    --txt-color: hsl(250, 18%, 19%);
 
     /* Background Colours */
     --site-bg: #fafad1;
@@ -43,6 +43,7 @@
 body {
     background-color: var(--site-bg);
     font-family: var(--site-font);
+    color: var(--txt-color);
 }
 
 /* Utilities */
@@ -210,7 +211,6 @@ html {
 .nav__item {
     font-size: 3rem;
     text-decoration: none;
-    color: var(--txt-dark);
     -webkit-transition: 0.7s ease;
     transition: 0.7s ease;
     position: relative;
@@ -490,7 +490,7 @@ html {
     font-size: 1.5rem;
     font-weight: 500;
     text-decoration: none;
-    color: var(--txt-dark);
+    color: var(--txt-color);
     padding: 5px 30px;
     cursor: pointer;
     background-color: var(--btn-project);
@@ -551,7 +551,6 @@ html {
 
 .form-wrap .form-group label {
     display: block;
-    color: var(--txt-dark);
     font-size: 1.4rem;
 }
 
