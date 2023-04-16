@@ -11,7 +11,7 @@
     /* Background Colours */
     --site-bg: #fdfdfd;
     --navbar-bg: #cabbe9;
-    --section-bg: #fcfeff;
+    --section-bg: #f0faff;
 
     /* colour scheme options */
 
@@ -351,6 +351,7 @@ html {
     line-height: 22px;
     margin-top: 2rem;
     max-width: 600px;
+    letter-spacing: 1px;
 }
 
 .arrow__container {
