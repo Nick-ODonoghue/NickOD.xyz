@@ -11,16 +11,24 @@
     /* Background Colours */
     --site-bg: #fdfdfd;
     --navbar-bg: #cabbe9;
-    --section-bg: #eff9ff;
+    --section-bg: #fcfeff;
+
+    /* colour scheme options */
+
+    /* --site-bg: #fdfdfd;
+    --navbar-bg: #cabbe9;
+    --section-bg: #fcfeff; */
+
     --project-card-bg: var(--navbar-bg);
-    --social-icon-bg: var(--btn-project);
+    --social-icon-bg: var(--navbar-bg);
     --social-icon-colour: var(--site-bg);
 
     /* Accents */
-    --btn-project: hsl(43, 100%, 50%);
-    --btn-project-hover: hsl(43, 100%, 45%);
-    --btn-contact: var(--site-bg);
-    --btn-contact-hover: var(--section-bg);
+    --btn-project: var(--section-bg);
+    /* #ffcef3 */
+    --btn-project-hover: #ffcef3;
+    --btn-contact: var(--btn-project);
+    --btn-contact-hover: var(--btn-project-hover);
     --stack-highlight: hsla(309, 100%, 54%, 0.750);
 
     /* Margins / Paddings / Gaps*/

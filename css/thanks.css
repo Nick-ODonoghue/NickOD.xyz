@@ -7,6 +7,10 @@ main {
     width: 100%;
 }
 
+.thanks {
+    height: 100vh;
+}
+
 .thanks__text {
     font-size: 1.5rem;
     font-weight: 500;
@@ -42,7 +46,18 @@ main {
 }
 
 .footer {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+@media(min-width:768px) {
+
+    .thanks__text {
+        font-size: 2.5rem;
+    }
+
 }
