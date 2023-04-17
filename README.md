@@ -1,45 +1,45 @@
-<h1 align="center">NickOD.xyz </h1>
+<h1 align="center">NickOD.xyz</h1>
 
-![Alt Text Here]()
+![Screenshot of site - COMING]()
 
 <br>
 
 ## Overview
 
-This is my personal site. Containing my portfolio, about me and contact.
+This is my personal site. Containing my portfolio of work, about me and contact.
 
 <br>
 
 ## Site To-Do
 
-- Mobile navigation
-- Sections:
-	- Navbar
-	- Home / Hero
-	- About Me
-	- Portfolio
-	- Contact Form
-	- Footer / Social Contacts
-- Smooth scrolling
-- Portfolio modals
+-   Mobile navigation
+-   Sections:
+    -   Navbar
+    -   Home / Hero
+        -   About Me
+    -   Portfolio
+    -   Contact Form
+    -   Footer / Social Contacts
+-   Smooth scrolling
+-   Portfolio modals
 
 <br>
 
 ## What I learned
 
-Personal branding.
+Personal branding. "More to follow".
 
 <br>
 
 ## Built with
 
-- Mobile first workflow
-- Grid
-- Flexbox
-- Semantic HTML5 markup
-- BEM
-- CSS custom properties
-- JS
+-   Mobile first workflow
+    -   Grid
+    -   Flexbox
+-   Semantic HTML5 markup
+    -   BEM
+-   CSS custom properties
+-   JS
 
 <br>
 
@@ -57,18 +57,20 @@ Personal branding.
 
 ## Author
 
-- Website - [NickOD.xyz](http://www.NickOD.xyz) <em>COMIGN SOON</em>
-- Twitter - [@NickOD_xyz](https://twitter.com/NickOD_xyz)
+-   Website - [NickOD.xyz](http://www.NickOD.xyz) <em>COMIGN SOON</em>
+-   My LinkedIn - [LinkedIn](https://www.linkedin.com/in/nick-odonoghue/)
 
 <br>
 
 ## Acknowledgments
 
+[Le Wagon](https://www.lewagon.com/) & all the teachers, TAs and classmates from <em>1122</em>
+
 [Frontend Mentor](https://www.frontendmentor.io/) & everyone kind enough to leave feedback
 
 [w3schools](https://www.w3schools.com/)
 
-[CSS Tricks](https://css-tricks.com/)
+[Web Dev Simplified](https://www.youtube.com/WebDevSimplified)
 
 [Kevin Powell](https://www.youtube.com/kepowob)
 
