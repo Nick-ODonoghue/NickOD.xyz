@@ -199,7 +199,7 @@ html {
 .header {
     background-color: var(--navbar-bg);
     border-bottom: var(--border);
-    padding: var(--padding);
+    padding: var(--padding) 0;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -640,6 +640,7 @@ html {
 .footer__container {
     display: flex;
     flex-direction: row;
+    justify-content: start;
     gap: var(--flex-gap);
 }
 
