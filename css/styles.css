@@ -734,10 +734,6 @@ html {
         margin-bottom: 2rem;
     }
 
-    .arrow__container {
-        display: block;
-    }
-
     /* Sections */
 
     .section__container {
@@ -839,6 +835,10 @@ html {
 
     .hero__blurb {
         font-size: 1.5rem;
+    }
+
+    .arrow__container {
+        display: block;
     }
 
     /* Animations Arrow */
