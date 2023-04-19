@@ -359,6 +359,27 @@ html {
     margin-top: 3rem;
 }
 
+.contact__btn {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--txt-color);
+    padding: 5px 30px;
+    cursor: pointer;
+    background-color: var(--btn-project-hover);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    box-shadow: var(--box-shadows);
+    -webkit-transition: all .7s;
+    transition: all .5s;
+}
+
+.contact__btn:hover,
+.contact__btn:focus {
+    background-color: var(--btn-project);
+    box-shadow: none;
+}
+
 .arrow__container {
     align-self: center;
 }
