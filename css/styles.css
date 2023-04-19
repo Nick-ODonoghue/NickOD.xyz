@@ -258,7 +258,7 @@ html {
     position: fixed;
     bottom: 2rem;
     right: 2rem;
-    background-color: var(--site-bg);
+    background-color: var(--btn-project-hover);
     opacity: .9;
     width: 50px;
     border: var(--border);
