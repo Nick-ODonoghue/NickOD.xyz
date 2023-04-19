@@ -163,6 +163,7 @@ html {
 
 .arrow__container {
     position: relative;
+    display: none;
 }
 
 .scroll-down-link {
@@ -722,6 +723,10 @@ html {
         line-height: 30px;
         margin-top: 3rem;
         margin-bottom: 2rem;
+    }
+
+    .arrow__container {
+        display: block;
     }
 
     /* Sections */
