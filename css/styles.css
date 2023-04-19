@@ -355,6 +355,10 @@ html {
     letter-spacing: 1px;
 }
 
+.hero__contact__container {
+    margin-top: 3rem;
+}
+
 .arrow__container {
     align-self: center;
 }
@@ -722,6 +726,11 @@ html {
         font-size: 2rem;
         line-height: 30px;
         margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero__contact__container {
+        margin-top: .5rem;
         margin-bottom: 2rem;
     }
 
