@@ -2,333 +2,330 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script defer type="module" src="./js/scripts.js"></script>
-    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-    <title>NickOD.xyz | Full-Stack Web Developer</title>
-    <meta property="og:title" content="Portfolio of work for Nick O'Donoghue" />
-    <meta property="og:description" content="A collection of some of my web development projects" />
-    <meta property="og:url" content="https://www.NickOD.xyz" />
-    <meta property="og:image" content="https://www.NickOD.xyz/assets/images/NickODxyz.jpg" />
-    <meta property="og:site_name" content="NickOD Portfolio" />
-    <meta property="og:type" content="website" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script defer type="module" src="./js/scripts.js"></script>
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+  <title>NickOD.xyz | Full-Stack Web Developer</title>
+  <meta property="og:title" content="Portfolio of work for Nick O'Donoghue" />
+  <meta property="og:description" content="A collection of some of my web development projects" />
+  <meta property="og:url" content="https://www.NickOD.xyz" />
+  <meta property="og:image" content="https://www.NickOD.xyz/assets/images/NickODxyz.jpg" />
+  <meta property="og:site_name" content="NickOD Portfolio" />
+  <meta property="og:type" content="website" />
 </head>
 
 <body>
-    <main>
+  <main>
 
-        <!-- Hambuger Menu -->
-        <div class="hamburger">
-            <span class="hamburger__bar"></span>
-            <span class="hamburger__bar"></span>
-            <span class="hamburger__bar"></span>
+    <!-- Hambuger Menu -->
+    <div class="hamburger">
+      <span class="hamburger__bar"></span>
+      <span class="hamburger__bar"></span>
+      <span class="hamburger__bar"></span>
+    </div>
+
+    <!-- Header & Navbar -->
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="nav__branding">
+            <span class="brand">NickOD.xyz</span>
+          </div>
+          <ul class="nav__menu">
+            <li class="nav__link"><a href="#home" class="nav__item">home</a></li>
+            <li class="nav__link"><a href="#tech" class="nav__item">tech-stack</a></li>
+            <li class="nav__link"><a href="#projects" class="nav__item">portfolio</a></li>
+            <li class="nav__link"><a href="#contact" class="nav__item">contact</a></li>
+            <li class="nav__link"><a href="./assets/cv/Nicholas O'Donoghue - CV.pdf" target="blank"
+                class="nav__item">CV</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero__section container">
+      <div class="hero__text__container">
+        <h2 id="typewriter__text"></h2>
+        <h1 class="hero__title">Full-Stack Web Developer</h1>
+        <p class="hero__blurb">Ready to bring your ideas to life? As a professional web developer, I love
+          turning unique visions into beautifully crafted websites that are functional, user-friendly, and
+          engaging. Let's work together to create an online presence that truly represents your brand!</p>
+        <div class="arrow__container">
+          <a href="#tech" class="scroll-down-link scroll-down-arrow">
+            <i class="fa-solid fa-arrow-down"></i>
+          </a>
+        </div>
+        <div class="hero__contact__container">
+          <a href="#contact" class="contact__btn">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- tech Section -->
+    <section id="tech" class="tech container section__container">
+      <div class="section__container__header">
+        <h2 class="section__container__text">Tech Stack <span>- I have a solid understanding and experience in
+            working with the following front-end and back-end technologies</span></h2>
+      </div>
+      <div class="tech__container hidden">
+        <div class="tech__icons">
+          <img class="tech__icon-size" src="./assets/tech icons/html.svg" alt="">
+          <p class="tech__txt-cursive">HTML</p>
+        </div>
+        <div class="tech__icons">
+          <img class="tech__icon-size" src="./assets/tech icons/css.svg" alt="">
+          <p class="tech__txt-cursive">CSS</p>
+        </div>
+        <div class="tech__icons">
+          <img class="tech__icon-size" src="./assets/tech icons/javascript.svg" alt="">
+          <p class="tech__txt-cursive">JAVASCRIPT</p>
+        </div>
+        <div class="tech__icons">
+          <img class="tech__icon-size" src="./assets/tech icons/ruby.svg" alt="">
+          <p class="tech__txt-cursive">RUBY</p>
+        </div>
+        <div class="tech__icons">
+          <img class="tech__icon-size" src="./assets/tech icons/rails.svg" alt="">
+          <p class="tech__txt-cursive">RAILS</p>
+        </div>
+        <div class="tech__icons">
+          <img class="tech__icon-size" src="./assets/tech icons/git.svg" alt="">
+          <p class="tech__txt-cursive">GIT</p>
+        </div>
+        <div class="tech__icons">
+          <img class="tech__icon-size" src="./assets/tech icons/github.svg" alt="">
+          <p class="tech__txt-cursive">GITHUB</p>
+        </div>
+        <div class="tech__icons">
+          <img class="tech__icon-size" src="./assets/tech icons/sql.png" alt="">
+          <p class="tech__txt-cursive">SQL</p>
+        </div>
+        <div class="tech__icons">
+          <img class="tech__icon-size" src="./assets/tech icons/postgresql.svg" alt="">
+          <p class="tech__txt-cursive">POSTGRESQL</p>
+        </div>
+        <div class="tech__icons">
+          <img class="tech__icon-size" src="./assets/tech icons/sass.svg" alt="">
+          <p class="tech__txt-cursive">SASS</p>
+        </div>
+        <div class="tech__icons">
+          <img class="tech__icon-size" src="./assets/tech icons/bootstrap-5.svg" alt="">
+          <p class="tech__txt-cursive">BOOTSTRAP</p>
+        </div>
+        <div class="tech__icons">
+          <img class="tech__icon-size" src="./assets/tech icons/heroku.svg" alt="">
+          <p class="tech__txt-cursive">HEROKU</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Full-Stack Projects Section -->
+    <section id="projects" class="container section__container">
+      <div class="section__container__header">
+        <h2 class="section__container__text">Full-Stack Projects <span>- From idea on paper to fully working
+            web-apps</span></h2>
+      </div>
+      <div class="card__container">
+        <div class="project__card hidden__card">
+          <div class="project__card__image project__card__image--aoy">
+          </div>
+          <div class="project__card__content">
+            <h2 class="project__card__heading">All of You</h2>
+            <p class="project__card__txt">Full-Stack colaboration in a team of 5. Using <span
+                class="highlight highlight--ruby">Ruby </span>& a <span class="highlight highlight--ror">Ruby on
+                Rails</span> backend with a <span class="highlight highlight--psql">postgreSQL</span> intergration</p>
+            <div class="project__card__tech__container">
+              <div class="tech__icons">
+                <img class="project__card__tech__icon" src="./assets/tech icons/html.svg" alt="">
+                <p class="project__tech__txt-cursive">HTML</p>
+              </div>
+              <div class="tech__icons">
+                <img class="project__card__tech__icon" src="./assets/tech icons/css.svg" alt="">
+                <p class="project__tech__txt-cursive">CSS</p>
+              </div>
+              <div class="tech__icons">
+                <img class="project__card__tech__icon" src="./assets/tech icons/sass.svg" alt="">
+                <p class="project__tech__txt-cursive">SASS</p>
+              </div>
+              <div class="tech__icons">
+                <img class="project__card__tech__icon" src="./assets/tech icons/javascript.svg" alt="">
+                <p class="project__tech__txt-cursive">JAVASCRIPT</p>
+              </div>
+              <div class="tech__icons">
+                <img class="project__card__tech__icon" src="./assets/tech icons/ruby.svg" alt="">
+                <p class="project__tech__txt-cursive">RUBY</p>
+              </div>
+              <div class="tech__icons">
+                <img class="project__card__tech__icon" src="./assets/tech icons/rails.svg" alt="">
+                <p class="project__tech__txt-cursive">RAILS</p>
+              </div>
+              <div class="tech__icons">
+                <img class="project__card__tech__icon" src="./assets/tech icons/postgresql.svg" alt="">
+                <p class="project__tech__txt-cursive">POSTGRESQL</p>
+              </div>
+            </div>
+            <div class="project__card__btn_container">
+              <a href="https://www.allofyou.art" class="project__btn" target="_blank" rel="noopener noreferrer">Live</a>
+              <a href="https://github.com/nikstojkov/AllofYou" class="project__btn" target="_blank"
+                rel="noopener noreferrer">Code</a>
+            </div>
+          </div>
         </div>
 
-        <!-- Header & Navbar -->
-        <header class="header">
-            <div class="container">
-                <nav class="navbar">
-                    <div class="nav__branding">
-                        <span class="brand">NickOD.xyz</span>
-                    </div>
-                    <ul class="nav__menu">
-                        <li class="nav__link"><a href="#home" class="nav__item">home</a></li>
-                        <li class="nav__link"><a href="#tech" class="nav__item">tech-stack</a></li>
-                        <li class="nav__link"><a href="#projects" class="nav__item">portfolio</a></li>
-                        <li class="nav__link"><a href="#contact" class="nav__item">contact</a></li>
-                        <li class="nav__link"><a href="./assets/cv/Nicholas O'Donoghue - CV.pdf" target="blank"
-                                class="nav__item">CV</a></li>
-                    </ul>
-                </nav>
+        <div class="project__card hidden__card">
+          <div class="project__card__image project__card__image--ebc">
+          </div>
+          <div class="project__card__content">
+            <h2 class="project__card__heading">Every Bite Counts</h2>
+            <p class="project__card__txt">Full-Stack colaboration in a team of 4. An airBnB clone using a
+              <span class="highlight highlight--ror">Ruby on Rails</span> backend with a
+              <span class="highlight highlight--psql">postgreSQL</span> intergration
+            </p>
+            <div class="project__card__tech__container">
+              <div class="tech__icons ">
+                <img class="project__card__tech__icon" src="./assets/tech icons/html.svg" alt="">
+                <p class="project__tech__txt-cursive">HTML</p>
+              </div>
+              <div class="tech__icons">
+                <img class="project__card__tech__icon" src="./assets/tech icons/css.svg" alt="">
+                <p class="project__tech__txt-cursive">CSS</p>
+              </div>
+              <div class="tech__icons">
+                <img class="project__card__tech__icon" src="./assets/tech icons/sass.svg" alt="">
+                <p class="project__tech__txt-cursive">SASS</p>
+              </div>
+              <div class="tech__icons">
+                <img class="project__card__tech__icon" src="./assets/tech icons/javascript.svg" alt="">
+                <p class="project__tech__txt-cursive">JAVASCRIPT</p>
+              </div>
+              <div class="tech__icons">
+                <img class="project__card__tech__icon" src="./assets/tech icons/ruby.svg" alt="">
+                <p class="project__tech__txt-cursive">RUBY</p>
+              </div>
+              <div class="tech__icons">
+                <img class="project__card__tech__icon" src="./assets/tech icons/rails.svg" alt="">
+                <p class="project__tech__txt-cursive">RAILS</p>
+              </div>
+              <div class="tech__icons">
+                <img class="project__card__tech__icon" src="./assets/tech icons/postgresql.svg" alt="">
+                <p class="project__tech__txt-cursive">POSTGRESQL</p>
+              </div>
             </div>
-        </header>
-
-        <!-- Hero Section -->
-        <section id="home" class="hero__section container">
-            <div class="hero__text__container">
-                <h2 id="typewriter__text"></h2>
-                <h1 class="hero__title">Full-Stack Web Developer</h1>
-                <p class="hero__blurb">Ready to bring your ideas to life? As a professional web developer, I love
-                    turning unique visions into beautifully crafted websites that are functional, user-friendly, and
-                    engaging. Let's work together to create an online presence that truly represents your brand!</p>
-                <div class="arrow__container">
-                    <a href="#tech" class="scroll-down-link scroll-down-arrow">
-                        <i class="fa-solid fa-arrow-down"></i>
-                    </a>
-                </div>
-                <div class="hero__contact__container">
-                    <a href="#contact" class="contact__btn">Contact Me</a>
-                </div>
+            <div class="project__card__btn_container">
+              <a class="project__btn project__btn-ooo" target="_blank" rel="noopener noreferrer">Live</a>
+              <a href="https://github.com/sulphite/every-bite-counts" class="project__btn" target="_blank"
+                rel="noopener noreferrer">Code</a>
             </div>
-        </section>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- tech Section -->
-        <section id="tech" class="tech container section__container">
-            <div class="section__container__header">
-                <h2 class="section__container__text">Tech Stack <span>- I have a solid understanding and experience in
-                        working with the following front-end and back-end technologies</span></h2>
+    <!-- API Projects Section -->
+    <section id="projects" class="container section__container">
+      <div class="section__container__header">
+        <h2 class="section__container__text">APIs Projects <span>- With so much data out there, lets have some
+            fun with it</span></h2>
+      </div>
+      <div class="card__container">
+        <div class="project__card hidden__card">
+          <div class="project__card__image project__card__image--rqg">
+          </div>
+          <div class="project__card__content">
+            <h2 class="project__card__heading">Random Quote Generator</h2>
+            <p class="project__card__txt">Using the <span class="highlight highlight--tc">try/catch</span>
+              <span class="highlight highlight--fapi">fetch API</span> method & <span
+                class="highlight highlight--ls">localStorage</span>
+              allowing for persistent data. Along with
+              <span class="highlight highlight--bs">bootstrap</span> for the site styling
+            </p>
+            <div class="project__card__tech__container">
+              <div class="tech__icons">
+                <img class="project__card__tech__icon" src="./assets/tech icons/html.svg" alt="">
+                <p class="project__tech__txt-cursive">HTML</p>
+              </div>
+              <div class="tech__icons">
+                <img class="project__card__tech__icon" src="./assets/tech icons/css.svg" alt="">
+                <p class="project__tech__txt-cursive">CSS</p>
+              </div>
+              <div class="tech__icons">
+                <img class="project__card__tech__icon" src="./assets/tech icons/bootstrap-5.svg" alt="">
+                <p class="project__tech__txt-cursive">BOOTSTRAP</p>
+              </div>
+              <div class="tech__icons">
+                <img class="project__card__tech__icon" src="./assets/tech icons/javascript.svg" alt="">
+                <p class="project__tech__txt-cursive">JAVASCRIPT</p>
+              </div>
             </div>
-            <div class="tech__container hidden">
-                <div class="tech__icons">
-                    <img class="tech__icon-size" src="./assets/tech icons/html.svg" alt="">
-                    <p class="tech__txt-cursive">HTML</p>
-                </div>
-                <div class="tech__icons">
-                    <img class="tech__icon-size" src="./assets/tech icons/css.svg" alt="">
-                    <p class="tech__txt-cursive">CSS</p>
-                </div>
-                <div class="tech__icons">
-                    <img class="tech__icon-size" src="./assets/tech icons/javascript.svg" alt="">
-                    <p class="tech__txt-cursive">JAVASCRIPT</p>
-                </div>
-                <div class="tech__icons">
-                    <img class="tech__icon-size" src="./assets/tech icons/ruby.svg" alt="">
-                    <p class="tech__txt-cursive">RUBY</p>
-                </div>
-                <div class="tech__icons">
-                    <img class="tech__icon-size" src="./assets/tech icons/rails.svg" alt="">
-                    <p class="tech__txt-cursive">RAILS</p>
-                </div>
-                <div class="tech__icons">
-                    <img class="tech__icon-size" src="./assets/tech icons/git.svg" alt="">
-                    <p class="tech__txt-cursive">GIT</p>
-                </div>
-                <div class="tech__icons">
-                    <img class="tech__icon-size" src="./assets/tech icons/github.svg" alt="">
-                    <p class="tech__txt-cursive">GITHUB</p>
-                </div>
-                <div class="tech__icons">
-                    <img class="tech__icon-size" src="./assets/tech icons/sql.png" alt="">
-                    <p class="tech__txt-cursive">SQL</p>
-                </div>
-                <div class="tech__icons">
-                    <img class="tech__icon-size" src="./assets/tech icons/postgresql.svg" alt="">
-                    <p class="tech__txt-cursive">POSTGRESQL</p>
-                </div>
-                <div class="tech__icons">
-                    <img class="tech__icon-size" src="./assets/tech icons/sass.svg" alt="">
-                    <p class="tech__txt-cursive">SASS</p>
-                </div>
-                <div class="tech__icons">
-                    <img class="tech__icon-size" src="./assets/tech icons/bootstrap-5.svg" alt="">
-                    <p class="tech__txt-cursive">BOOTSTRAP</p>
-                </div>
-                <div class="tech__icons">
-                    <img class="tech__icon-size" src="./assets/tech icons/heroku.svg" alt="">
-                    <p class="tech__txt-cursive">HEROKU</p>
-                </div>
+            <div class="project__card__btn_container">
+              <a href="https://nick-odonoghue.github.io/random-quote-generator/" class="project__btn" target="_blank"
+                rel="noopener noreferrer">Live</a>
+              <a href="https://github.com/Nick-ODonoghue/random-quote-generator" class="project__btn" target="_blank"
+                rel="noopener noreferrer">Code</a>
             </div>
-        </section>
+          </div>
+        </div>
+      </div>
 
-        <!-- Full-Stack Projects Section -->
-        <section id="projects" class="container section__container">
-            <div class="section__container__header">
-                <h2 class="section__container__text">Full-Stack Projects <span>- From idea on paper to fully working
-                        web-apps</span></h2>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact container section__container">
+      <div class="contact__header section__container__header">
+        <h2 class="section__container__text">Contact Me <span>- I look forward to hearing from you</span></h2>
+      </div>
+
+      <div class="contact__container">
+        <div class="form-wrap">
+          <form class="form" action="https://formsubmit.co/5867d62f7c696666d88bdddad2fc7fe6" method="POST">
+            <!-- Remove formsubmit Captcha -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <!-- Set Email Subject -->
+            <input type="hidden" name="_subject" value="New submission!">
+
+            <!-- Set Redirect -->
+            <input type="hidden" name="_next" value="https://NickOD.xyz/pages/thanks.html">
+
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" placeholder="Your Name" class="no-outline" />
             </div>
-            <div class="card__container">
-                <div class="project__card hidden__card">
-                    <div class="project__card__image project__card__image--aoy">
-                    </div>
-                    <div class="project__card__content">
-                        <h2 class="project__card__heading">All of You</h2>
-                        <p class="project__card__txt">Full-Stack colaboration in a team of 5. Using <span
-                                class="highlight highlight--ruby">Ruby </span>& a <span
-                                class="highlight highlight--ror">Ruby on Rails</span> backend with a <span
-                                class="highlight highlight--psql">postgreSQL</span> intergration</p>
-                        <div class="project__card__tech__container">
-                            <div class="tech__icons">
-                                <img class="project__card__tech__icon" src="./assets/tech icons/html.svg" alt="">
-                                <p class="project__tech__txt-cursive">HTML</p>
-                            </div>
-                            <div class="tech__icons">
-                                <img class="project__card__tech__icon" src="./assets/tech icons/css.svg" alt="">
-                                <p class="project__tech__txt-cursive">CSS</p>
-                            </div>
-                            <div class="tech__icons">
-                                <img class="project__card__tech__icon" src="./assets/tech icons/sass.svg" alt="">
-                                <p class="project__tech__txt-cursive">SASS</p>
-                            </div>
-                            <div class="tech__icons">
-                                <img class="project__card__tech__icon" src="./assets/tech icons/javascript.svg" alt="">
-                                <p class="project__tech__txt-cursive">JAVASCRIPT</p>
-                            </div>
-                            <div class="tech__icons">
-                                <img class="project__card__tech__icon" src="./assets/tech icons/ruby.svg" alt="">
-                                <p class="project__tech__txt-cursive">RUBY</p>
-                            </div>
-                            <div class="tech__icons">
-                                <img class="project__card__tech__icon" src="./assets/tech icons/rails.svg" alt="">
-                                <p class="project__tech__txt-cursive">RAILS</p>
-                            </div>
-                            <div class="tech__icons">
-                                <img class="project__card__tech__icon" src="./assets/tech icons/postgresql.svg" alt="">
-                                <p class="project__tech__txt-cursive">POSTGRESQL</p>
-                            </div>
-                        </div>
-                        <div class="project__card__btn_container">
-                            <a href="https://www.allofyou.art" class="project__btn" target="_blank"
-                                rel="noopener noreferrer">Live</a>
-                            <a href="https://github.com/nikstojkov/AllofYou" class="project__btn" target="_blank"
-                                rel="noopener noreferrer">Code</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project__card hidden__card">
-                    <div class="project__card__image project__card__image--ebc">
-                    </div>
-                    <div class="project__card__content">
-                        <h2 class="project__card__heading">Every Bite Counts</h2>
-                        <p class="project__card__txt">Full-Stack colaboration in a team of 4. An airBnB clone using a
-                            <span class="highlight highlight--ror">Ruby on Rails</span> backend with a
-                            <span class="highlight highlight--psql">postgreSQL</span> intergration
-                        </p>
-                        <div class="project__card__tech__container">
-                            <div class="tech__icons ">
-                                <img class="project__card__tech__icon" src="./assets/tech icons/html.svg" alt="">
-                                <p class="project__tech__txt-cursive">HTML</p>
-                            </div>
-                            <div class="tech__icons">
-                                <img class="project__card__tech__icon" src="./assets/tech icons/css.svg" alt="">
-                                <p class="project__tech__txt-cursive">CSS</p>
-                            </div>
-                            <div class="tech__icons">
-                                <img class="project__card__tech__icon" src="./assets/tech icons/sass.svg" alt="">
-                                <p class="project__tech__txt-cursive">SASS</p>
-                            </div>
-                            <div class="tech__icons">
-                                <img class="project__card__tech__icon" src="./assets/tech icons/javascript.svg" alt="">
-                                <p class="project__tech__txt-cursive">JAVASCRIPT</p>
-                            </div>
-                            <div class="tech__icons">
-                                <img class="project__card__tech__icon" src="./assets/tech icons/ruby.svg" alt="">
-                                <p class="project__tech__txt-cursive">RUBY</p>
-                            </div>
-                            <div class="tech__icons">
-                                <img class="project__card__tech__icon" src="./assets/tech icons/rails.svg" alt="">
-                                <p class="project__tech__txt-cursive">RAILS</p>
-                            </div>
-                            <div class="tech__icons">
-                                <img class="project__card__tech__icon" src="./assets/tech icons/postgresql.svg" alt="">
-                                <p class="project__tech__txt-cursive">POSTGRESQL</p>
-                            </div>
-                        </div>
-                        <div class="project__card__btn_container">
-                            <a class="project__btn project__btn-ooo" target="_blank" rel="noopener noreferrer">Live</a>
-                            <a href="https://github.com/sulphite/every-bite-counts" class="project__btn" target="_blank"
-                                rel="noopener noreferrer">Code</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="Your Email" class="no-outline" />
             </div>
-        </section>
-
-        <!-- API Projects Section -->
-        <section id="projects" class="container section__container">
-            <div class="section__container__header">
-                <h2 class="section__container__text">APIs Projects <span>- With so much data out there, lets have some
-                        fun with it</span></h2>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Your Message" class="no-outline"></textarea>
             </div>
-            <div class="card__container">
-                <div class="project__card hidden__card">
-                    <div class="project__card__image project__card__image--rqg">
-                    </div>
-                    <div class="project__card__content">
-                        <h2 class="project__card__heading">Random Quote Generator</h2>
-                        <p class="project__card__txt">Using the <span class="highlight highlight--tc">try/catch</span>
-                            <span class="highlight highlight--fapi">fetch API</span> method & <span
-                                class="highlight highlight--ls">localStorage</span>
-                            allowing for persistent data. Along with
-                            <span class="highlight highlight--bs">bootstrap</span> for the site styling
-                        </p>
-                        <div class="project__card__tech__container">
-                            <div class="tech__icons">
-                                <img class="project__card__tech__icon" src="./assets/tech icons/html.svg" alt="">
-                                <p class="project__tech__txt-cursive">HTML</p>
-                            </div>
-                            <div class="tech__icons">
-                                <img class="project__card__tech__icon" src="./assets/tech icons/css.svg" alt="">
-                                <p class="project__tech__txt-cursive">CSS</p>
-                            </div>
-                            <div class="tech__icons">
-                                <img class="project__card__tech__icon" src="./assets/tech icons/bootstrap-5.svg" alt="">
-                                <p class="project__tech__txt-cursive">BOOTSTRAP</p>
-                            </div>
-                            <div class="tech__icons">
-                                <img class="project__card__tech__icon" src="./assets/tech icons/javascript.svg" alt="">
-                                <p class="project__tech__txt-cursive">JAVASCRIPT</p>
-                            </div>
-                        </div>
-                        <div class="project__card__btn_container">
-                            <a href="https://nick-odonoghue.github.io/random-quote-generator/" class="project__btn"
-                                target="_blank" rel="noopener noreferrer">Live</a>
-                            <a href="https://github.com/Nick-ODonoghue/random-quote-generator" class="project__btn"
-                                target="_blank" rel="noopener noreferrer">Code</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
 
-        </section>
+    </section>
 
-        <!-- Contact Section -->
-        <section id="contact" class="contact container section__container">
-            <div class="contact__header section__container__header">
-                <h2 class="section__container__text">Contact Me <span>- I look forward to hearing from you</span></h2>
-            </div>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container footer__container">
+        <h2>Created by NickOD</h2>
+        <a href="https://www.linkedin.com/in/nick-odonoghue/" target="blank">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.github.com/Nick-ODonoghue" target="blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </footer>
 
-            <div class="contact__container">
-                <div class="form-wrap">
-                    <form class="form" action="https://formsubmit.co/5867d62f7c696666d88bdddad2fc7fe6" method="POST">
-                        <!-- Remove formsubmit Captcha -->
-                        <input type="hidden" name="_captcha" value="false">
-
-                        <!-- Set Email Subject -->
-                        <input type="hidden" name="_subject" value="New submission!">
-
-                        <!-- Set Redirect -->
-                        <input type="hidden" name="_next" value="https://NickOD.xyz/pages/thanks.html">
-
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" name="name" id="name" placeholder="Your Name" class="no-outline" />
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" name="email" id="email" placeholder="Your Email" class="no-outline" />
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" placeholder="Your Message"
-                                class="no-outline"></textarea>
-                        </div>
-                        <button type="submit" class="btn">Send Message</button>
-                    </form>
-                </div>
-            </div>
-
-        </section>
-
-        <!-- Footer Section -->
-        <footer class="footer">
-            <div class="container footer__container">
-                <h2>Created by NickOD</h2>
-                <a href="https://www.linkedin.com/in/nick-odonoghue/" target="blank">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </a>
-                <a href="https://www.github.com/Nick-ODonoghue" target="blank">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-            </div>
-        </footer>
-
-    </main>
+  </main>
 </body>
 
 </html>
