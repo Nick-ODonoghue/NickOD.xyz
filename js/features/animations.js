@@ -41,6 +41,5 @@ export function animationsCard() {
   hiddentElements.forEach((el) => observer.observe(el))
 }
 
-animationsCard()
-
 animationsTech()
+animationsCard()
