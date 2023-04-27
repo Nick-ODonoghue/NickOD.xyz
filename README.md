@@ -21,7 +21,6 @@ This is my personal site. Containing my portfolio of work, about me and contact.
   - Contact Form
   - Footer / Social Contacts
 - Smooth scrolling
-- Portfolio modals
 
 <br>
 
@@ -37,8 +36,8 @@ Personal branding. "More to follow".
   - Grid
   - Flexbox
 - Semantic HTML5 markup
-  - BEM
 - CSS custom properties
+  - BEM
 - JS
 
 <br>
@@ -57,8 +56,8 @@ Personal branding. "More to follow".
 
 ## Author
 
-- Website - [NickOD.xyz](http://www.NickOD.xyz) <em>COMIGN SOON</em>
-- My LinkedIn - [LinkedIn](https://www.linkedin.com/in/nick-odonoghue/)
+- Website - [NickOD.xyz](http://www.NickOD.xyz)
+- LinkedIn - [LinkedIn](https://www.linkedin.com/in/nick-odonoghue/)
 
 <br>
 
