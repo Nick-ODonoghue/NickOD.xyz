@@ -113,6 +113,26 @@ a {
   width: 70px;
 }
 
+.highlight--node::after {
+  width: 56px;
+}
+
+.highlight--express::after {
+  width: 56px;
+}
+
+.highlight--axios::after {
+  width: 42px;
+}
+
+.highlight--cors::after {
+  width: 34px;
+}
+
+.highlight--dot::after {
+  width: 48px;
+}
+
 /* Smooth Scroll */
 
 html {
@@ -487,6 +507,12 @@ html {
   background-position: center;
 }
 
+.project__card__image--cs {
+  background-image: url(../assets/images/coming-soon.svg);
+  background-position: center;
+  background-size: contain;
+}
+
 .project__card__content {
   display: flex;
   flex-direction: column;
@@ -501,6 +527,7 @@ html {
 
 .project__card__txt {
   font-size: 1.2rem;
+  min-height: 8rem;
 }
 
 .project__card__tech__container {
@@ -718,6 +745,26 @@ html {
 
   .highlight--bs::after {
     width: 86px;
+  }
+
+  .highlight--node::after {
+    width: 68px;
+  }
+
+  .highlight--express::after {
+    width: 69px;
+  }
+
+  .highlight--axios::after {
+    width: 52px;
+  }
+
+  .highlight--cors::after {
+    width: 42px;
+  }
+
+  .highlight--dot::after {
+    width: 59px;
   }
 
   /* Header & Navbar */
