@@ -513,6 +513,11 @@ html {
   background-size: contain;
 }
 
+.project__card__image--fsn {
+  background-image: url(../assets/images/Footy-Sports-News.jpg);
+  background-position: center;
+}
+
 .project__card__content {
   display: flex;
   flex-direction: column;
